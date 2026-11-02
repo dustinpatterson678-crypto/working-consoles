@@ -1,6 +1,11 @@
-# Working Consoles Remake
+<p align="center"><img src="docs/icon.png" width="256" alt="Working Consoles & Arcades"></p>
 
-Fully buildable source for the **Working Consoles** modpack — Minecraft **26.3** (Fabric), Java 25.
+# Working Consoles & Arcades
+
+Working game consoles, TVs and a full redemption arcade with tickets, prizes, jackpots and high scores, for Minecraft **26.3** (Fabric, Java 25).
+Modders can add their own consoles, controllers, arcade machines and prizes: see [docs/API.md](docs/API.md).
+
+Fully buildable source for the **Working Consoles & Arcades** mods.
 
 This tree builds the complete Working Consoles set from source so new features can keep being added — next up is **version 3, the retro update** (see `RETRO_UPDATE.md`):
 
