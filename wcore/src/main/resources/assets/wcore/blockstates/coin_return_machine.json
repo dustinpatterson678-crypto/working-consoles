@@ -1,0 +1,7 @@
+{
+    "variants":  {
+                     "":  {
+                              "model":  "wcore:block/coin_return_machine"
+                          }
+                 }
+}

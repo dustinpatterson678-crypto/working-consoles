@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "BLB",
+  " S ",
+  "BBB"
+ ],
+ "key": {
+  "B": "minecraft:bricks",
+  "L": "minecraft:oak_leaves",
+  "S": "minecraft:oak_sapling"
+ },
+ "result": {
+  "id": "arcadebuild:planter_tree",
+  "count": 1
+ }
+}

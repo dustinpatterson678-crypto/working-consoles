@@ -1,0 +1,7 @@
+{
+ "model": {
+  "type": "minecraft:special",
+  "base": "retro:item/megaduck",
+  "model": { "type": "geckolib:geckolib" }
+ }
+}

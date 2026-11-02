@@ -1,0 +1,9 @@
+{
+ "model": {
+  "type": "minecraft:special",
+  "base": "wcore:item/manual",
+  "model": {
+   "type": "geckolib:geckolib"
+  }
+ }
+}

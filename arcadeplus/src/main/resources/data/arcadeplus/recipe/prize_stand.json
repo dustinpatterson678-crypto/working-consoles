@@ -1,0 +1,19 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "GGG",
+  "CTC",
+  "PPP"
+ ],
+ "key": {
+  "G": "minecraft:glass",
+  "C": "minecraft:chest",
+  "T": "arcadeplus:prize_booth",
+  "P": "minecraft:oak_planks"
+ },
+ "result": {
+  "id": "arcadeplus:prize_stand",
+  "count": 1
+ }
+}

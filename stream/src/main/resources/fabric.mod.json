@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "stream",
+	"version": "${version}",
+	"name": "Streaming TVs",
+	"description": "Smart TVs and cinema projectors (home theater, cinema, drive-in) running a real browser, with a desk keyboard and mouse.",
+	"authors": [
+		"Dustin"
+	],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.dustin.stream.StreamMod"
+		],
+		"client": [
+			"com.dustin.stream.client.StreamClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*",
+		"wcore": ">=0.7.0",
+		"mcef-modern": ">=0.3.3"
+	},
+	"mixins": [
+		"stream.mixins.json"
+	],
+	"icon": "assets/stream/icon.png"
+}

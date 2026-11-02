@@ -1,0 +1,8 @@
+{
+ "parent": "minecraft:block/orientable",
+ "textures": {
+  "front": "arcadebuild:block/builder_front",
+  "side": "arcadebuild:block/builder_side",
+  "top": "arcadebuild:block/builder_top"
+ }
+}

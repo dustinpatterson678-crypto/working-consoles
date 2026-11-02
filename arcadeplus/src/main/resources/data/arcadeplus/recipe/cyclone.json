@@ -1,0 +1,20 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "ILI",
+  "LCL",
+  "AEA"
+ ],
+ "key": {
+  "I": "minecraft:iron_ingot",
+  "L": "minecraft:redstone_lamp",
+  "C": "minecraft:comparator",
+  "A": "minecraft:oak_planks",
+  "E": "minecraft:emerald"
+ },
+ "result": {
+  "id": "arcadeplus:cyclone",
+  "count": 1
+ }
+}

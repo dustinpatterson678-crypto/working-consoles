@@ -1,0 +1,20 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "III",
+  "GCG",
+  "AEA"
+ ],
+ "key": {
+  "I": "minecraft:iron_door",
+  "G": "minecraft:gold_ingot",
+  "C": "minecraft:chest",
+  "A": "minecraft:oak_planks",
+  "E": "minecraft:emerald"
+ },
+ "result": {
+  "id": "arcadeplus:locker",
+  "count": 1
+ }
+}

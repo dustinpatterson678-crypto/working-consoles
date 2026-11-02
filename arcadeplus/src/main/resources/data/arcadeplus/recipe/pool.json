@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "WBW",
+  "WBW",
+  "S S"
+ ],
+ "key": {
+  "W": "minecraft:red_wool",
+  "B": "minecraft:blue_wool",
+  "S": "minecraft:stick"
+ },
+ "result": {
+  "id": "arcadeplus:pool",
+  "count": 1
+ }
+}

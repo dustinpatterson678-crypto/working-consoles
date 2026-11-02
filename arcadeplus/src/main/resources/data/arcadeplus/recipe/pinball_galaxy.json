@@ -1,0 +1,12 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "arcadeplus:pinball",
+  "minecraft:blue_dye"
+ ],
+ "result": {
+  "id": "arcadeplus:pinball_galaxy",
+  "count": 1
+ }
+}

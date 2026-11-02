@@ -1,0 +1,9 @@
+{
+ "model": {
+  "type": "minecraft:special",
+  "base": "wcore:item/coffee_table",
+  "model": {
+   "type": "geckolib:geckolib"
+  }
+ }
+}

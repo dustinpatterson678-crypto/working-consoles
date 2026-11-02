@@ -1,0 +1,28 @@
+{
+ "variants": {
+  "facing=north,lit=true": {
+   "model": "arcadebuild:block/planter_tree"
+  },
+  "facing=north,lit=false": {
+   "model": "arcadebuild:block/planter_tree"
+  },
+  "facing=east,lit=true": {
+   "model": "arcadebuild:block/planter_tree"
+  },
+  "facing=east,lit=false": {
+   "model": "arcadebuild:block/planter_tree"
+  },
+  "facing=south,lit=true": {
+   "model": "arcadebuild:block/planter_tree"
+  },
+  "facing=south,lit=false": {
+   "model": "arcadebuild:block/planter_tree"
+  },
+  "facing=west,lit=true": {
+   "model": "arcadebuild:block/planter_tree"
+  },
+  "facing=west,lit=false": {
+   "model": "arcadebuild:block/planter_tree"
+  }
+ }
+}

@@ -1,0 +1,38 @@
+{
+    "format_version":  "1.8.0",
+    "animations":  {
+                       "idle":  {
+                                    "loop":  true,
+                                    "animation_length":  1,
+                                    "bones":  {
+
+                                              }
+                                },
+                       "closed":  {
+                                      "loop":  true,
+                                      "animation_length":  0.4,
+                                      "bones":  {
+
+                                                }
+                                  },
+                       "open":  {
+                                    "loop":  true,
+                                    "animation_length":  0.4,
+                                    "bones":  {
+
+                                              }
+                                },
+                       "opening":  {
+                                       "animation_length":  0.55,
+                                       "bones":  {
+
+                                                 }
+                                   },
+                       "closing":  {
+                                       "animation_length":  0.5,
+                                       "bones":  {
+
+                                                 }
+                                   }
+                   }
+}

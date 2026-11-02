@@ -1,0 +1,7 @@
+{
+ "model": {
+  "type": "minecraft:special",
+  "base": "retro:item/intellivision",
+  "model": { "type": "geckolib:geckolib" }
+ }
+}

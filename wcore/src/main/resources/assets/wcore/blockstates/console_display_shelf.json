@@ -1,0 +1,7 @@
+{
+    "variants":  {
+                     "":  {
+                              "model":  "wcore:block/console_display_shelf"
+                          }
+                 }
+}

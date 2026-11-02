@@ -1,0 +1,19 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "category":  "building",
+    "pattern":  [
+                    "IGI",
+                    "GDG",
+                    "IRI"
+                ],
+    "key":  {
+                "I":  "minecraft:iron_ingot",
+                "G":  "minecraft:glass",
+                "D":  "minecraft:gold_ingot",
+                "R":  "minecraft:redstone"
+            },
+    "result":  {
+                   "id":  "wcore:change_machine",
+                   "count":  1
+               }
+}

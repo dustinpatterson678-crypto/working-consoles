@@ -1,0 +1,13 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "minecraft:glass_bottle",
+  "minecraft:sugar",
+  "minecraft:apple"
+ ],
+ "result": {
+  "id": "wcore:arcade_soda",
+  "count": 1
+ }
+}

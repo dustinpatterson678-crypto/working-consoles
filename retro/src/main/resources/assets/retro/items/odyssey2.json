@@ -1,0 +1,7 @@
+{
+ "model": {
+  "type": "minecraft:special",
+  "base": "retro:item/odyssey2",
+  "model": { "type": "geckolib:geckolib" }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "arcadeplus:block/teddy_bear"
+  },
+  "facing=east": {
+   "model": "arcadeplus:block/teddy_bear",
+   "y": 90
+  },
+  "facing=south": {
+   "model": "arcadeplus:block/teddy_bear",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "arcadeplus:block/teddy_bear",
+   "y": 270
+  }
+ }
+}

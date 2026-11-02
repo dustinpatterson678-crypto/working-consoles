@@ -1,0 +1,18 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "category":  "building",
+    "pattern":  [
+                    "IPI",
+                    "P P",
+                    "SSS"
+                ],
+    "key":  {
+                "I":  "minecraft:iron_ingot",
+                "P":  "#minecraft:planks",
+                "S":  "minecraft:smooth_stone"
+            },
+    "result":  {
+                   "id":  "wcore:memory_card_rack",
+                   "count":  1
+               }
+}

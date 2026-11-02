@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "arcadeplus",
+	"version": "${version}",
+	"name": "Dustin's Arcade: Games & Prizes",
+	"description": "Dustin's Arcade games and prizes: 16 realistic ticket redemption machines (Alley Roller, Hoop Frenzy, Big Wheel, Bonus Drum, Plinko Drop, High Striker, Air Hockey, Lucky Locker and more), five themed pinball tables with their own playfields, a prize counter and prize wall where tickets buy real items, plus video arcade cabinets.",
+	"authors": [
+		"Dustin"
+	],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.dustin.arcadeplus.ArcadePlusMod"
+		],
+		"client": [
+			"com.dustin.arcadeplus.client.ArcadePlusClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*",
+		"geckolib": ">=5.5.7",
+		"wcore": ">=0.7.0",
+		"arcade": "*"
+	},
+	"icon": "assets/arcadeplus/icon.png"
+}

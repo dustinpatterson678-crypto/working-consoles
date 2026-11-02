@@ -1,0 +1,28 @@
+{
+ "variants": {
+  "facing=north,lit=true": {
+   "model": "arcadebuild:block/potted_palm"
+  },
+  "facing=north,lit=false": {
+   "model": "arcadebuild:block/potted_palm"
+  },
+  "facing=east,lit=true": {
+   "model": "arcadebuild:block/potted_palm"
+  },
+  "facing=east,lit=false": {
+   "model": "arcadebuild:block/potted_palm"
+  },
+  "facing=south,lit=true": {
+   "model": "arcadebuild:block/potted_palm"
+  },
+  "facing=south,lit=false": {
+   "model": "arcadebuild:block/potted_palm"
+  },
+  "facing=west,lit=true": {
+   "model": "arcadebuild:block/potted_palm"
+  },
+  "facing=west,lit=false": {
+   "model": "arcadebuild:block/potted_palm"
+  }
+ }
+}

@@ -1,0 +1,17 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "category":  "building",
+    "pattern":  [
+                    "PPP",
+                    "GGG",
+                    "PPP"
+                ],
+    "key":  {
+                "P":  "#minecraft:planks",
+                "G":  "minecraft:glass"
+            },
+    "result":  {
+                   "id":  "wcore:media_cabinet",
+                   "count":  1
+               }
+}

@@ -1,0 +1,8 @@
+{
+ "replace": false,
+ "values": [
+  "arcadeplus:brawler_cabinet",
+  "arcadeplus:racing_cabinet",
+  "arcadeplus:candy_cabinet"
+ ]
+}

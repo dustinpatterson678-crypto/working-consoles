@@ -1,0 +1,28 @@
+{
+ "variants": {
+  "facing=north,lit=true": {
+   "model": "arcadebuild:block/giant_teddy"
+  },
+  "facing=north,lit=false": {
+   "model": "arcadebuild:block/giant_teddy"
+  },
+  "facing=east,lit=true": {
+   "model": "arcadebuild:block/giant_teddy"
+  },
+  "facing=east,lit=false": {
+   "model": "arcadebuild:block/giant_teddy"
+  },
+  "facing=south,lit=true": {
+   "model": "arcadebuild:block/giant_teddy"
+  },
+  "facing=south,lit=false": {
+   "model": "arcadebuild:block/giant_teddy"
+  },
+  "facing=west,lit=true": {
+   "model": "arcadebuild:block/giant_teddy"
+  },
+  "facing=west,lit=false": {
+   "model": "arcadebuild:block/giant_teddy"
+  }
+ }
+}

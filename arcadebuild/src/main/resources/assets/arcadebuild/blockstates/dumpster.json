@@ -1,0 +1,28 @@
+{
+ "variants": {
+  "facing=north,lit=true": {
+   "model": "arcadebuild:block/dumpster"
+  },
+  "facing=north,lit=false": {
+   "model": "arcadebuild:block/dumpster"
+  },
+  "facing=east,lit=true": {
+   "model": "arcadebuild:block/dumpster"
+  },
+  "facing=east,lit=false": {
+   "model": "arcadebuild:block/dumpster"
+  },
+  "facing=south,lit=true": {
+   "model": "arcadebuild:block/dumpster"
+  },
+  "facing=south,lit=false": {
+   "model": "arcadebuild:block/dumpster"
+  },
+  "facing=west,lit=true": {
+   "model": "arcadebuild:block/dumpster"
+  },
+  "facing=west,lit=false": {
+   "model": "arcadebuild:block/dumpster"
+  }
+ }
+}

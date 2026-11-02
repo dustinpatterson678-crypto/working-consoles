@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "III",
+  "RDR",
+  "III"
+ ],
+ "key": {
+  "I": "minecraft:iron_ingot",
+  "R": "minecraft:redstone",
+  "D": "minecraft:diamond"
+ },
+ "result": {
+  "id": "sega:saturn",
+  "count": 1
+ }
+}

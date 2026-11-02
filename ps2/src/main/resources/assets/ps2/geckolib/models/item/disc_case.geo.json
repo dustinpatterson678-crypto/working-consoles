@@ -1,0 +1,105 @@
+{
+ "format_version": "1.12.0",
+ "minecraft:geometry": [
+  {
+   "description": {
+    "identifier": "geometry.disc_case",
+    "texture_width": 256,
+    "texture_height": 256,
+    "visible_bounds_width": 2,
+    "visible_bounds_height": 2,
+    "visible_bounds_offset": [
+     0,
+     0,
+     0
+    ]
+   },
+   "bones": [
+    {
+     "name": "case",
+     "pivot": [
+      0,
+      0,
+      0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -4.5,
+        -6.5,
+        -0.75
+       ],
+       "size": [
+        9,
+        13,
+        1.5
+       ],
+       "uv": {
+        "north": {
+         "uv": [
+          0,
+          0
+         ],
+         "uv_size": [
+          108,
+          156
+         ]
+        },
+        "south": {
+         "uv": [
+          108,
+          0
+         ],
+         "uv_size": [
+          108,
+          156
+         ]
+        },
+        "west": {
+         "uv": [
+          216,
+          0
+         ],
+         "uv_size": [
+          18,
+          156
+         ]
+        },
+        "east": {
+         "uv": [
+          234,
+          0
+         ],
+         "uv_size": [
+          18,
+          156
+         ]
+        },
+        "up": {
+         "uv": [
+          0,
+          156
+         ],
+         "uv_size": [
+          108,
+          18
+         ]
+        },
+        "down": {
+         "uv": [
+          108,
+          156
+         ],
+         "uv_size": [
+          108,
+          18
+         ]
+        }
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

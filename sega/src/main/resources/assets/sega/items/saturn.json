@@ -1,0 +1,9 @@
+{
+ "model": {
+  "type": "minecraft:special",
+  "base": "sega:item/saturn",
+  "model": {
+   "type": "geckolib:geckolib"
+  }
+ }
+}

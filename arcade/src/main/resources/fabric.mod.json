@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "arcade",
+	"version": "${version}",
+	"name": "Arcade Cabinets",
+	"description": "Working bartop and full-size arcade cabinets for the Working Consoles pack, with their own screens and controls. Plays your own arcade board dumps.",
+	"authors": [
+		"Dustin"
+	],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.dustin.arcade.ArcadeMod"
+		],
+		"client": [
+			"com.dustin.arcade.client.ArcadeClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*",
+		"geckolib": ">=5.5.7",
+		"wcore": ">=0.7.0"
+	},
+	"icon": "assets/arcade/icon.png"
+}

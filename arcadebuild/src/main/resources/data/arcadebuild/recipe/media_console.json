@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "PPP",
+  "GCG",
+  "PPP"
+ ],
+ "key": {
+  "P": "minecraft:dark_oak_planks",
+  "G": "minecraft:glass_pane",
+  "C": "minecraft:chest"
+ },
+ "result": {
+  "id": "arcadebuild:media_console",
+  "count": 1
+ }
+}

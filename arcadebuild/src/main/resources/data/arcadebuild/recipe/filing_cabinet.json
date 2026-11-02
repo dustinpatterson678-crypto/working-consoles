@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "III",
+  "IPI",
+  "III"
+ ],
+ "key": {
+  "I": "minecraft:iron_ingot",
+  "P": "minecraft:paper"
+ },
+ "result": {
+  "id": "arcadebuild:filing_cabinet",
+  "count": 1
+ }
+}

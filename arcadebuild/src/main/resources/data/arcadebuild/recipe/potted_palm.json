@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  " L ",
+  " S ",
+  " T "
+ ],
+ "key": {
+  "L": "minecraft:jungle_leaves",
+  "S": "minecraft:jungle_log",
+  "T": "minecraft:terracotta"
+ },
+ "result": {
+  "id": "arcadebuild:potted_palm",
+  "count": 1
+ }
+}

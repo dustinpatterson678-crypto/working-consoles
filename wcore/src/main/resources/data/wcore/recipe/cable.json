@@ -1,0 +1,15 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "SCS"
+ ],
+ "key": {
+  "S": "minecraft:string",
+  "C": "minecraft:copper_ingot"
+ },
+ "result": {
+  "id": "wcore:cable",
+  "count": 4
+ }
+}

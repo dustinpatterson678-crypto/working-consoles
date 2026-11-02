@@ -1,0 +1,108 @@
+// Packaging: always exactly 3 jars, for CurseForge and for your own game.
+//   working-consoles-core-<v>.jar   the core library
+//   working-consoles-<v>.jar        every console mod, nested inside (Fabric jar-in-jar)
+//   dustins-arcade-<v>.jar          the arcade cabinets, games & prizes, nested inside
+// Release (-Prelease=true) goes to the "release" folder; dev builds go to build/dev-jars.
+// installJars then removes EVERY older copy of our mods from the game's mods folder and puts in just those 3.
+import groovy.json.JsonOutput
+
+def isRelease = (findProperty('release') ?: 'false').toString().toBoolean()
+def bundleDefs = [
+   [file: 'working-consoles', id: 'workingconsoles', name: 'Working Consoles',
+    desc: 'Working game consoles, home computers, handhelds and streaming TVs that play on in-world TVs. Bundles all the console mods.',
+    icon: 'wcore/src/main/resources/assets/wcore/icon.png',
+    mods: ['gbsp', 'ps2', 'sega', 'nintendo', 'retro', 'disc', 'classic', 'stream', 'gamecube']],
+   [file: 'dustins-arcade', id: 'dustinsarcade', name: "Dustin's Arcade",
+    desc: "A full redemption arcade: realistic ticket games, themed pinball tables, a prize booth and arcade cabinets.",
+    icon: 'arcadeplus/src/main/resources/assets/arcadeplus/icon.png',
+    mods: ['arcade', 'arcadeplus', 'arcadebuild']]
+]
+
+def relDir = rootProject.file(isRelease ? 'release' : 'build/dev-jars')
+def relVersion = rootProject.version.toString()
+
+tasks.register('cleanRelease', Delete) {
+   group = 'working consoles'
+   delete relDir
+}
+
+def bundleTasks = []
+bundleDefs.each { d ->
+   def present = d.mods.findAll { rootProject.findProject(":${it}") != null }
+   def gen = new File(rootProject.layout.buildDirectory.get().asFile, "bundles/${d.id}")
+   gen.mkdirs()
+   def meta = [
+      schemaVersion: 1, id: d.id, version: relVersion, name: d.name, description: d.desc,
+      authors: ['Dustin'], license: 'MIT', environment: '*',
+      jars: [],
+      depends: [fabricloader: '>=0.19.5', minecraft: '~26.3', 'fabric-api': '*', geckolib: '>=5.5.7', wcore: '*']
+   ]
+   def iconFile = rootProject.file(d.icon)
+   if (iconFile.exists()) meta.icon = 'icon.png'
+   def t = tasks.register("bundle_${d.id}", Jar) {
+      group = 'working consoles'
+      mustRunAfter 'cleanRelease'
+      archiveFileName = "${d.file}-${relVersion}.jar"
+      destinationDirectory = relDir
+      from(gen)
+      if (iconFile.exists()) from(iconFile) { rename { 'icon.png' } }
+      def lic = rootProject.file('arcadeplus/src/main/resources/LICENSE.txt')
+      if (lic.exists()) from(lic)
+      present.each { m ->
+         def rj = project(":${m}").tasks.named('remapJar')
+         dependsOn rj
+         from(rj.flatMap { it.archiveFile }) { into 'META-INF/jars' }
+      }
+      doFirst {
+         // Resolve the nested file names only now: each module sets its own version, and the
+         // arcadebuild module deliberately stays at 1.1.0 while the pack is at 11.7.0.
+         meta.jars = present.collect { m ->
+            [file: "META-INF/jars/${project(":${m}").tasks.named('remapJar').get().archiveFile.get().asFile.name}".toString()]
+         }
+         new File(gen, 'fabric.mod.json').text = JsonOutput.prettyPrint(JsonOutput.toJson(meta))
+      }
+   }
+   bundleTasks << t
+}
+
+tasks.register('releaseJars') {
+   group = 'working consoles'
+   description = 'Builds the 3 jars (release folder with -Prelease=true, build/dev-jars otherwise) and nothing else.'
+   dependsOn 'cleanRelease'
+   dependsOn bundleTasks
+   def core = rootProject.findProject(':wcore')
+   if (core != null) dependsOn core.tasks.named('remapJar')
+   doLast {
+      if (core != null) {
+         def f = core.tasks.named('remapJar').get().archiveFile.get().asFile
+         copy { from f; into relDir }
+      }
+      println "Jars (${isRelease ? 'release' : 'dev'}):"
+      relDir.listFiles().sort { it.name }.each { println "  ${it.name}" }
+   }
+}
+
+// Every file name our mods have ever been installed under, old single-mod jars included.
+def ourPrefixes = ['working-consoles-', 'dustins-arcade-', 'gameboy-in-minecraft-', 'ps2-in-minecraft-', 'sega-in-minecraft-', 'arcade-in-minecraft-',
+   'nintendo-in-minecraft-', 'retro-in-minecraft-', 'stream-in-minecraft-', 'disc-consoles-in-minecraft-', 'classics-in-minecraft-',
+   'arcade-deluxe-in-minecraft-', 'arcade-building-in-minecraft-', 'gamecube-in-minecraft-']
+def modsDir = new File((findProperty('modsDir') ?: 'C:/Users/dustin/curseforge/minecraft/Instances/working console/mods').toString())
+
+tasks.register('installJars') {
+   group = 'working consoles'
+   description = "Puts the 3 new jars in the game's mods folder, removing every older copy of our mods first."
+   dependsOn 'releaseJars'
+   doLast {
+      def fresh = (relDir.listFiles({ f -> f.name.endsWith('.jar') } as FileFilter) ?: []) as List
+      if (fresh.size() != 3) throw new GradleException("Expected exactly 3 jars in ${relDir}, found ${fresh.size()}: ${fresh*.name}")
+      modsDir.mkdirs()
+      def old = (modsDir.listFiles({ f -> f.isFile() && f.name.endsWith('.jar') && ourPrefixes.any { p -> f.name.startsWith(p) } } as FileFilter) ?: []) as List
+      def stuck = old.findAll { !it.delete() }
+      if (stuck) throw new GradleException("Close Minecraft and build again - these jars are still in use: ${stuck*.name.join(', ')}")
+      old.each { println "removed ${it.name}" }
+      fresh.each { f ->
+         copy { from f; into modsDir }
+         println "installed ${f.name}"
+      }
+   }
+}

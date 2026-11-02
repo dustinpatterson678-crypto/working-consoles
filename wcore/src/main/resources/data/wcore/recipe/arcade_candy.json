@@ -1,0 +1,13 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "minecraft:sugar",
+  "minecraft:sugar",
+  "minecraft:sweet_berries"
+ ],
+ "result": {
+  "id": "wcore:arcade_candy",
+  "count": 2
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "RWB",
+  "SPS",
+  "AEA"
+ ],
+ "key": {
+  "R": "minecraft:red_wool",
+  "W": "minecraft:white_carpet",
+  "B": "minecraft:blue_wool",
+  "S": "minecraft:smooth_stone_slab",
+  "P": "minecraft:piston",
+  "A": "minecraft:oak_planks",
+  "E": "minecraft:emerald"
+ },
+ "result": {
+  "id": "arcadeplus:hockey",
+  "count": 1
+ }
+}

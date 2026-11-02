@@ -1,0 +1,6 @@
+{
+ "model": {
+  "type": "minecraft:model",
+  "model": "arcadebuild:block/arcade_wall"
+ }
+}

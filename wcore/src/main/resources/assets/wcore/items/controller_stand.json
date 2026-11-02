@@ -1,0 +1,9 @@
+{
+    "model":  {
+                  "type":  "minecraft:special",
+                  "base":  "wcore:item/controller_stand",
+                  "model":  {
+                                "type":  "geckolib:geckolib"
+                            }
+              }
+}

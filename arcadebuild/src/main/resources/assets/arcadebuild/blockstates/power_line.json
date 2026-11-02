@@ -1,0 +1,10 @@
+{
+ "variants": {
+  "powered=false": {
+   "model": "arcadebuild:block/power_line"
+  },
+  "powered=true": {
+   "model": "arcadebuild:block/power_line_on"
+  }
+ }
+}

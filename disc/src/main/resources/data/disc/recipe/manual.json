@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "minecraft:book",
+  "disc:ps1_disc"
+ ],
+ "result": {
+  "id": "wcore:manual",
+  "count": 1,
+  "components": {
+   "minecraft:custom_data": {
+    "manual": "disc"
+   },
+   "minecraft:item_name": "Disc Consoles Manual"
+  }
+ }
+}

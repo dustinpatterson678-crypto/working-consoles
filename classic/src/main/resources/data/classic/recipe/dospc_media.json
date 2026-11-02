@@ -1,0 +1,13 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "minecraft:paper",
+  "minecraft:redstone",
+  "minecraft:yellow_dye"
+ ],
+ "result": {
+  "id": "classic:dospc_media",
+  "count": 2
+ }
+}

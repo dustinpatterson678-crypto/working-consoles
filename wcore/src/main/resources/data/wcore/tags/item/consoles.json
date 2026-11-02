@@ -1,0 +1,11 @@
+{
+ "replace": false,
+ "values": [
+  "wcore:tv",
+  "wcore:crt_small",
+  "wcore:crt_large",
+  "wcore:rear_projection",
+  "wcore:projector",
+  "wcore:ceiling_projector"
+ ]
+}

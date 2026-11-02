@@ -1,0 +1,9 @@
+{
+    "model":  {
+                  "type":  "minecraft:special",
+                  "base":  "wcore:item/arcade_stool",
+                  "model":  {
+                                "type":  "geckolib:geckolib"
+                            }
+              }
+}

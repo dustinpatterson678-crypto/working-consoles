@@ -1,0 +1,18 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "category":  "building",
+    "pattern":  [
+                    "PPP",
+                    "IDI",
+                    "I I"
+                ],
+    "key":  {
+                "P":  "minecraft:paper",
+                "I":  "minecraft:iron_ingot",
+                "D":  "minecraft:magenta_dye"
+            },
+    "result":  {
+                   "id":  "wcore:ticket_counter",
+                   "count":  1
+               }
+}

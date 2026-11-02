@@ -1,0 +1,35 @@
+# build output and caches
+.gradle/
+build/
+*/build/
+run/
+release/
+out/
+
+# developer-only: bypass profile and key never go public
+**/DevProfile.java
+dev.key
+
+# local logs, dumps and scratch files
+*.log
+*.bak
+verify-log.txt
+build-log.txt
+build-full.txt
+release-log.txt
+compile-check.txt
+cefclient.txt
+cefosr2.txt
+kh.txt
+mcefapiimpl.txt
+debug/
+debug-gc/
+Creations/
+libs/
+geckolib-fixed.jar
+tools/dolphin-shim/dump-*.txt
+tools/dolphin-shim/shim-*
+tools/dolphin-shim/*.exe
+tools/dolphin-shim/*.dol
+tools/modelgen/backup/
+*.ppm

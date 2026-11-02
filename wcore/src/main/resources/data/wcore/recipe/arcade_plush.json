@@ -1,0 +1,19 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "minecraft:white_wool",
+  "minecraft:string",
+  "wcore:arcade_ticket",
+  "wcore:arcade_ticket",
+  "wcore:arcade_ticket",
+  "wcore:arcade_ticket",
+  "wcore:arcade_ticket",
+  "wcore:arcade_ticket",
+  "wcore:arcade_ticket"
+ ],
+ "result": {
+  "id": "wcore:arcade_plush",
+  "count": 1
+ }
+}

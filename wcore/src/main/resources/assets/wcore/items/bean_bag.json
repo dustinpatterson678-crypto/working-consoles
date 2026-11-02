@@ -1,0 +1,9 @@
+{
+ "model": {
+  "type": "minecraft:special",
+  "base": "wcore:item/bean_bag",
+  "model": {
+   "type": "geckolib:geckolib"
+  }
+ }
+}

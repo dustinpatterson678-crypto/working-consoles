@@ -1,0 +1,14 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "minecraft:orange_dye",
+  "minecraft:redstone",
+  "minecraft:gold_nugget",
+  "minecraft:copper_ingot"
+ ],
+ "result": {
+  "id": "arcadeplus:gun_board",
+  "count": 2
+ }
+}

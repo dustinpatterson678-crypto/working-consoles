@@ -1,0 +1,42 @@
+<!doctype html><html><head><meta charset="utf-8"><title>WC Smart TV</title>
+<style>
+*{box-sizing:border-box}body{margin:0;height:100vh;font-family:Segoe UI,Arial,sans-serif;color:#eef;background:radial-gradient(ellipse at top,#1b2a4a 0%,#0b0f1c 60%,#05070d 100%);overflow:hidden}
+header{display:flex;justify-content:space-between;align-items:center;padding:28px 48px}
+.logo{font-size:30px;font-weight:700;letter-spacing:1px}.logo span{color:#5cc8ff}
+#clock{font-size:26px;opacity:.85}
+form{display:flex;justify-content:center;margin:10px 0 26px}
+input{width:640px;padding:16px 24px;font-size:22px;border-radius:40px;border:2px solid #2c3d63;background:#121a2e;color:#fff;outline:none}
+input:focus{border-color:#5cc8ff}
+h2{margin:0 48px 14px;font-weight:600;font-size:20px;opacity:.7;letter-spacing:2px}
+.row{display:flex;gap:24px;padding:0 48px;flex-wrap:wrap}
+a.tile{width:250px;height:110px;border-radius:14px;display:flex;align-items:flex-end;padding:16px;font-size:24px;font-weight:600;color:#fff;text-decoration:none;box-shadow:0 8px 24px rgba(0,0,0,.4);transition:transform .15s}
+a.tile:hover{transform:scale(1.07);outline:3px solid #fff}
+footer{position:fixed;bottom:18px;left:48px;opacity:.5;font-size:15px}
+</style></head><body>
+<header><div class="logo">WC <span>Smart TV</span></div><div id="clock"></div></header>
+<form onsubmit="go();return false"><input id="q" placeholder="Search or type a web address" autofocus></form>
+<h2>APPS</h2>
+<div class="row">
+<a class="tile" style="background:linear-gradient(135deg,#e62117,#8a0f0a)" href="https://www.youtube.com">YouTube</a>
+<a class="tile" style="background:linear-gradient(135deg,#9146ff,#4b1fa3)" href="https://www.twitch.tv">Twitch</a>
+<a class="tile" style="background:linear-gradient(135deg,#e5a00d,#8a5e00)" href="https://app.plex.tv">Plex</a>
+<a class="tile" style="background:linear-gradient(135deg,#53fc18,#1f7a00)" href="https://kick.com">Kick</a>
+<a class="tile" style="background:linear-gradient(135deg,#3a6ea5,#1b3558)" href="https://archive.org/details/movies">Classic Movies</a>
+<a class="tile" style="background:linear-gradient(135deg,#0066dc,#00306a)" href="https://www.dailymotion.com">Dailymotion</a>
+<a class="tile" style="background:linear-gradient(135deg,#5a5a64,#24242a)" href="https://www.wikipedia.org">Wikipedia</a>
+<a class="tile" style="background:linear-gradient(135deg,#34a853,#1a5c2c)" href="https://www.google.com">Google</a>
+</div>
+<h2 style="margin-top:28px">GAMES</h2>
+<div class="row">
+<a class="tile" style="background:linear-gradient(135deg,#ff4f9a,#8a1d50)" href="https://poki.com">Poki</a>
+<a class="tile" style="background:linear-gradient(135deg,#6c4cff,#2c1a8a)" href="https://www.crazygames.com">CrazyGames</a>
+<a class="tile" style="background:linear-gradient(135deg,#fa5c5c,#7a1f1f)" href="https://itch.io/games/platform-web">itch.io</a>
+<a class="tile" style="background:linear-gradient(135deg,#2bb5a3,#12594f)" href="https://hardwaretester.com/gamepad">Controller Test</a>
+</div>
+<footer>Ctrl+I input &nbsp;·&nbsp; Ctrl+L address &nbsp;·&nbsp; Ctrl+H home &nbsp;·&nbsp; Alt+&larr;/&rarr; back/forward &nbsp;·&nbsp; F5 reload &nbsp;·&nbsp; Esc exit</footer>
+<script>
+function go(){var t=document.getElementById('q').value.trim();if(!t)return;
+location.href=/^[a-z]+:\/\//i.test(t)?t:(t.indexOf(' ')<0&&t.indexOf('.')>0?'https://'+t:'https://www.google.com/search?q='+encodeURIComponent(t));}
+function tick(){var d=new Date();document.getElementById('clock').textContent=d.toLocaleTimeString([], {hour:'numeric',minute:'2-digit'});}
+tick();setInterval(tick,5000);
+</script></body></html>

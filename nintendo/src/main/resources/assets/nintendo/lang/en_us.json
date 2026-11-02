@@ -1,0 +1,14 @@
+{
+ "block.nintendo.nes": "Nintendo Entertainment System",
+ "block.nintendo.snes": "Super Nintendo",
+ "block.nintendo.n64": "Nintendo 64",
+ "item.nintendo.nes_cartridge": "NES Cartridge",
+ "item.nintendo.snes_cartridge": "Super Nintendo Cartridge",
+ "item.nintendo.n64_cartridge": "Nintendo 64 Cartridge",
+ "item.nintendo.n64_controller": "N64 Controller",
+ "block.nintendo.n64_controller": "N64 Controller",
+ "item.nintendo.snes_controller": "SNES Controller",
+ "block.nintendo.snes_controller": "SNES Controller",
+ "item.nintendo.nes_controller": "NES Controller",
+ "block.nintendo.nes_controller": "NES Controller"
+}

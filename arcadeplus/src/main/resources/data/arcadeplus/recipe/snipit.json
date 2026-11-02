@@ -1,0 +1,20 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "GSG",
+  "GCG",
+  "AEA"
+ ],
+ "key": {
+  "G": "minecraft:glass",
+  "S": "minecraft:shears",
+  "C": "minecraft:chest",
+  "A": "minecraft:oak_planks",
+  "E": "minecraft:emerald"
+ },
+ "result": {
+  "id": "arcadeplus:snipit",
+  "count": 1
+ }
+}

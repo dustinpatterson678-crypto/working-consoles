@@ -1,0 +1,28 @@
+{
+ "variants": {
+  "facing=north,lit=true": {
+   "model": "arcadebuild:block/electrical_panel"
+  },
+  "facing=north,lit=false": {
+   "model": "arcadebuild:block/electrical_panel"
+  },
+  "facing=east,lit=true": {
+   "model": "arcadebuild:block/electrical_panel"
+  },
+  "facing=east,lit=false": {
+   "model": "arcadebuild:block/electrical_panel"
+  },
+  "facing=south,lit=true": {
+   "model": "arcadebuild:block/electrical_panel"
+  },
+  "facing=south,lit=false": {
+   "model": "arcadebuild:block/electrical_panel"
+  },
+  "facing=west,lit=true": {
+   "model": "arcadebuild:block/electrical_panel"
+  },
+  "facing=west,lit=false": {
+   "model": "arcadebuild:block/electrical_panel"
+  }
+ }
+}

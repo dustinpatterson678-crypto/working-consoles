@@ -1,0 +1,17 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "category":  "building",
+    "pattern":  [
+                    "WWW",
+                    "III",
+                    " I "
+                ],
+    "key":  {
+                "W":  "#minecraft:wool",
+                "I":  "minecraft:iron_ingot"
+            },
+    "result":  {
+                   "id":  "wcore:arcade_stool",
+                   "count":  1
+               }
+}

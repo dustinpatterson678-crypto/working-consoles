@@ -1,0 +1,16 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "category":  "building",
+    "pattern":  [
+                    "WW",
+                    "WD"
+                ],
+    "key":  {
+                "W":  "#minecraft:wool",
+                "D":  "minecraft:magenta_dye"
+            },
+    "result":  {
+                   "id":  "wcore:arcade_carpet",
+                   "count":  3
+               }
+}

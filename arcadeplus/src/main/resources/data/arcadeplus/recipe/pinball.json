@@ -1,0 +1,20 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "GGG",
+  "BRB",
+  "PEP"
+ ],
+ "key": {
+  "G": "minecraft:glass_pane",
+  "B": "minecraft:slime_ball",
+  "R": "minecraft:redstone",
+  "P": "minecraft:dark_oak_planks",
+  "E": "minecraft:emerald"
+ },
+ "result": {
+  "id": "arcadeplus:pinball",
+  "count": 1
+ }
+}

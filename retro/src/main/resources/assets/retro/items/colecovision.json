@@ -1,0 +1,7 @@
+{
+ "model": {
+  "type": "minecraft:special",
+  "base": "retro:item/colecovision",
+  "model": { "type": "geckolib:geckolib" }
+ }
+}

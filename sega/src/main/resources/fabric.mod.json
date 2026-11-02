@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "sega",
+	"version": "${version}",
+	"name": "Black Box Consoles",
+	"description": "A working 16-bit cartridge console and a 32-bit disc console for the Working Consoles pack. Write your own game dumps onto blank cartridges and discs, and play on the TV.",
+	"authors": [
+		"Dustin"
+	],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.dustin.sega.SegaMod"
+		],
+		"client": [
+			"com.dustin.sega.client.SegaClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*",
+		"geckolib": ">=5.5.7",
+		"wcore": ">=0.7.0"
+	},
+	"icon": "assets/sega/icon.png"
+}

@@ -1,0 +1,21 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "LBL",
+  "RPR",
+  "AEA"
+ ],
+ "key": {
+  "L": "minecraft:redstone_lamp",
+  "B": "minecraft:stone_button",
+  "R": "minecraft:redstone",
+  "P": "minecraft:repeater",
+  "A": "minecraft:oak_planks",
+  "E": "minecraft:emerald"
+ },
+ "result": {
+  "id": "arcadeplus:speedlights",
+  "count": 1
+ }
+}

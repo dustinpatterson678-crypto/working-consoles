@@ -1,0 +1,7 @@
+{
+    "variants":  {
+                     "":  {
+                              "model":  "wcore:block/ticket_counter"
+                          }
+                 }
+}

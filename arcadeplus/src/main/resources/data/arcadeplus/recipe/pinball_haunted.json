@@ -1,0 +1,12 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "arcadeplus:pinball",
+  "minecraft:green_dye"
+ ],
+ "result": {
+  "id": "arcadeplus:pinball_haunted",
+  "count": 1
+ }
+}

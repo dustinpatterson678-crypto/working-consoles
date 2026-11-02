@@ -1,0 +1,7 @@
+{
+ "model": {
+  "type": "minecraft:special",
+  "base": "retro:item/cartridge",
+  "model": { "type": "geckolib:geckolib" }
+ }
+}

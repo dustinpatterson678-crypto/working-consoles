@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "minecraft:book",
+  "wcore:cable"
+ ],
+ "result": {
+  "id": "wcore:manual",
+  "count": 1,
+  "components": {
+   "minecraft:custom_data": {
+    "manual": "wcore"
+   },
+   "minecraft:item_name": "Working Consoles Manual"
+  }
+ }
+}

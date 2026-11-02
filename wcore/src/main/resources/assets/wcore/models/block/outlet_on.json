@@ -1,0 +1,111 @@
+{
+ "parent": "minecraft:block/block",
+ "ambientocclusion": false,
+ "textures": {
+  "plate": "wcore:block/outlet",
+  "light": "wcore:block/outlet_light_on",
+  "particle": "wcore:block/outlet"
+ },
+ "elements": [
+  {
+   "from": [
+    5,
+    4,
+    15
+   ],
+   "to": [
+    11,
+    12,
+    16
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      5,
+      4,
+      11,
+      12
+     ],
+     "texture": "#plate"
+    },
+    "south": {
+     "uv": [
+      5,
+      4,
+      11,
+      12
+     ],
+     "texture": "#plate"
+    },
+    "east": {
+     "uv": [
+      0,
+      4,
+      1,
+      12
+     ],
+     "texture": "#plate"
+    },
+    "west": {
+     "uv": [
+      0,
+      4,
+      1,
+      12
+     ],
+     "texture": "#plate"
+    },
+    "up": {
+     "uv": [
+      5,
+      0,
+      11,
+      1
+     ],
+     "texture": "#plate"
+    },
+    "down": {
+     "uv": [
+      5,
+      0,
+      11,
+      1
+     ],
+     "texture": "#plate"
+    }
+   }
+  },
+  {
+   "from": [
+    7.5,
+    12.5,
+    15.4
+   ],
+   "to": [
+    8.5,
+    13.2,
+    16
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "texture": "#light"
+    },
+    "up": {
+     "uv": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "texture": "#light"
+    }
+   }
+  }
+ ]
+}

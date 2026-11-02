@@ -1,0 +1,28 @@
+{
+ "variants": {
+  "facing=north,lit=true": {
+   "model": "arcadebuild:block/coffee_table"
+  },
+  "facing=north,lit=false": {
+   "model": "arcadebuild:block/coffee_table"
+  },
+  "facing=east,lit=true": {
+   "model": "arcadebuild:block/coffee_table"
+  },
+  "facing=east,lit=false": {
+   "model": "arcadebuild:block/coffee_table"
+  },
+  "facing=south,lit=true": {
+   "model": "arcadebuild:block/coffee_table"
+  },
+  "facing=south,lit=false": {
+   "model": "arcadebuild:block/coffee_table"
+  },
+  "facing=west,lit=true": {
+   "model": "arcadebuild:block/coffee_table"
+  },
+  "facing=west,lit=false": {
+   "model": "arcadebuild:block/coffee_table"
+  }
+ }
+}

@@ -1,0 +1,9 @@
+{
+ "model": {
+  "type": "minecraft:special",
+  "base": "wcore:item/tv",
+  "model": {
+   "type": "geckolib:geckolib"
+  }
+ }
+}

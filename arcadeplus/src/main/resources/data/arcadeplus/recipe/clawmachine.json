@@ -1,0 +1,20 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "ABA",
+  "RCR",
+  "AEA"
+ ],
+ "key": {
+  "A": "minecraft:glass_pane",
+  "B": "minecraft:tripwire_hook",
+  "C": "minecraft:pink_wool",
+  "R": "minecraft:redstone",
+  "E": "minecraft:emerald"
+ },
+ "result": {
+  "id": "arcadeplus:clawmachine",
+  "count": 1
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "gamecube:block/gamecube_controller"
+  },
+  "facing=south": {
+   "model": "gamecube:block/gamecube_controller"
+  },
+  "facing=east": {
+   "model": "gamecube:block/gamecube_controller"
+  },
+  "facing=west": {
+   "model": "gamecube:block/gamecube_controller"
+  }
+ }
+}

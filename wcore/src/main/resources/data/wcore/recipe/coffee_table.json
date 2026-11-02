@@ -1,0 +1,16 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "GGG",
+  "P P"
+ ],
+ "key": {
+  "G": "minecraft:glass_pane",
+  "P": "#minecraft:planks"
+ },
+ "result": {
+  "id": "wcore:coffee_table",
+  "count": 1
+ }
+}

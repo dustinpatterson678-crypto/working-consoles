@@ -1,0 +1,9 @@
+{
+ "model": {
+  "type": "minecraft:special",
+  "base": "classic:item/amiga",
+  "model": {
+   "type": "geckolib:geckolib"
+  }
+ }
+}

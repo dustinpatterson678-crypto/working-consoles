@@ -1,0 +1,18 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "category":  "building",
+    "pattern":  [
+                    "IGI",
+                    "GLG",
+                    "IGI"
+                ],
+    "key":  {
+                "I":  "minecraft:iron_ingot",
+                "G":  "minecraft:glass",
+                "L":  "minecraft:glowstone_dust"
+            },
+    "result":  {
+                   "id":  "wcore:floor_uplight",
+                   "count":  1
+               }
+}

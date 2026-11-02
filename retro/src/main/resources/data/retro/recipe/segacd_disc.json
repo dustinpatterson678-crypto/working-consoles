@@ -1,0 +1,14 @@
+{
+    "type":  "minecraft:crafting_shapeless",
+    "category":  "misc",
+    "ingredients":  [
+                        "minecraft:iron_ingot",
+                        "minecraft:redstone",
+                        "minecraft:paper",
+                        "minecraft:gray_dye"
+                    ],
+    "result":  {
+                   "id":  "retro:segacd_disc",
+                   "count":  2
+               }
+}

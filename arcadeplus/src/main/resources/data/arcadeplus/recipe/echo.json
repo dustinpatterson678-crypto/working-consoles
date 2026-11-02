@@ -1,0 +1,22 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "RBG",
+  "LNL",
+  "AEA"
+ ],
+ "key": {
+  "R": "minecraft:red_dye",
+  "B": "minecraft:blue_dye",
+  "G": "minecraft:green_dye",
+  "L": "minecraft:redstone_lamp",
+  "N": "minecraft:note_block",
+  "A": "minecraft:oak_planks",
+  "E": "minecraft:emerald"
+ },
+ "result": {
+  "id": "arcadeplus:echo",
+  "count": 1
+ }
+}

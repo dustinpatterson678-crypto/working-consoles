@@ -1,0 +1,9 @@
+{
+ "model": {
+  "type": "minecraft:special",
+  "base": "disc:item/pcfx",
+  "model": {
+   "type": "geckolib:geckolib"
+  }
+ }
+}

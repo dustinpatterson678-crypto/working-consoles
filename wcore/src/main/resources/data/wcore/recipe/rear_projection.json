@@ -1,0 +1,19 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "TTT",
+  "TMT",
+  "CRC"
+ ],
+ "key": {
+  "T": "wcore:tv",
+  "M": "minecraft:glass",
+  "C": "minecraft:black_concrete",
+  "R": "minecraft:redstone_block"
+ },
+ "result": {
+  "id": "wcore:rear_projection",
+  "count": 1
+ }
+}

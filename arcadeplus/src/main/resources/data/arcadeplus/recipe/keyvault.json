@@ -1,0 +1,21 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "GTG",
+  "ICI",
+  "AEA"
+ ],
+ "key": {
+  "G": "minecraft:glass",
+  "T": "minecraft:tripwire_hook",
+  "I": "minecraft:iron_ingot",
+  "C": "minecraft:chest",
+  "A": "minecraft:oak_planks",
+  "E": "minecraft:emerald"
+ },
+ "result": {
+  "id": "arcadeplus:keyvault",
+  "count": 1
+ }
+}

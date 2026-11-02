@@ -1,0 +1,20 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "ABA",
+  "RCR",
+  "AEA"
+ ],
+ "key": {
+  "A": "minecraft:oak_planks",
+  "B": "minecraft:green_wool",
+  "C": "minecraft:snowball",
+  "R": "minecraft:redstone",
+  "E": "minecraft:emerald"
+ },
+ "result": {
+  "id": "arcadeplus:skeeball",
+  "count": 1
+ }
+}

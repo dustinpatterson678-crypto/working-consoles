@@ -1,0 +1,20 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "ABA",
+  "RCR",
+  "AEA"
+ ],
+ "key": {
+  "A": "minecraft:green_wool",
+  "B": "minecraft:piston",
+  "C": "minecraft:brown_wool",
+  "R": "minecraft:redstone",
+  "E": "minecraft:emerald"
+ },
+ "result": {
+  "id": "arcadeplus:whackamole",
+  "count": 1
+ }
+}

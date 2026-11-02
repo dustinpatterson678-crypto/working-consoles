@@ -1,0 +1,9 @@
+{
+ "model": {
+  "type": "minecraft:special",
+  "base": "classic:item/sms",
+  "model": {
+   "type": "geckolib:geckolib"
+  }
+ }
+}

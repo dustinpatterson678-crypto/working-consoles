@@ -1,0 +1,7 @@
+{
+ "block.stream.smart_tv": "Smart TV",
+ "block.stream.projector": "Cinema Projector",
+ "block.stream.keyboard": "Keyboard",
+ "block.stream.mouse": "Mouse",
+ "item.stream.hdmi_cable": "HDMI Cable"
+}

@@ -1,0 +1,17 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "category":  "building",
+    "pattern":  [
+                    "I",
+                    "S",
+                    "S"
+                ],
+    "key":  {
+                "I":  "minecraft:iron_ingot",
+                "S":  "minecraft:smooth_stone"
+            },
+    "result":  {
+                   "id":  "wcore:controller_stand",
+                   "count":  1
+               }
+}

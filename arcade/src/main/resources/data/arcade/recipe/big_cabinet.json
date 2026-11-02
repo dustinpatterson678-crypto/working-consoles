@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "PPP",
+  "PBP",
+  "PPP"
+ ],
+ "key": {
+  "P": "#minecraft:planks",
+  "B": "arcade:cabinet"
+ },
+ "result": {
+  "id": "arcade:big_cabinet",
+  "count": 1
+ }
+}

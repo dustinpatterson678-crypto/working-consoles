@@ -1,0 +1,14 @@
+{
+ "replace": false,
+ "values": [
+  "classic:c64_media",
+  "classic:amiga_media",
+  "classic:atarist_media",
+  "classic:zxspectrum_media",
+  "classic:cpc_media",
+  "classic:dospc_media",
+  "classic:atari800_media",
+  "classic:sms_media",
+  "classic:gamegear_media"
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "minecraft:paper",
+  "minecraft:redstone",
+  "minecraft:orange_dye"
+ ],
+ "result": {
+  "id": "classic:atari800_media",
+  "count": 2
+ }
+}

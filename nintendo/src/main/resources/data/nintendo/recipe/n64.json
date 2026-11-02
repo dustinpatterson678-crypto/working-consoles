@@ -1,0 +1,19 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "III",
+  "RDR",
+  "BBB"
+ ],
+ "key": {
+  "I": "minecraft:iron_ingot",
+  "R": "minecraft:redstone",
+  "D": "minecraft:diamond",
+  "B": "minecraft:black_concrete"
+ },
+ "result": {
+  "id": "nintendo:n64",
+  "count": 1
+ }
+}

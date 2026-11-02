@@ -1,0 +1,16 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "nintendo:block/snes_controller"
+  },
+  "facing=south": {
+   "model": "nintendo:block/snes_controller"
+  },
+  "facing=east": {
+   "model": "nintendo:block/snes_controller"
+  },
+  "facing=west": {
+   "model": "nintendo:block/snes_controller"
+  }
+ }
+}

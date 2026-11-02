@@ -1,0 +1,12 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "building",
+ "ingredients": [
+  "arcadebuild:stucco",
+  "minecraft:red_dye"
+ ],
+ "result": {
+  "id": "arcadebuild:stucco_trim",
+  "count": 1
+ }
+}

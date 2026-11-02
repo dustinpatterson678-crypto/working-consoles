@@ -1,0 +1,13 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "minecraft:baked_potato",
+  "minecraft:baked_potato",
+  "minecraft:paper"
+ ],
+ "result": {
+  "id": "wcore:arcade_chips",
+  "count": 2
+ }
+}

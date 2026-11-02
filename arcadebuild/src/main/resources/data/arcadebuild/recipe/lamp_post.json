@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  " G ",
+  " I ",
+  " I "
+ ],
+ "key": {
+  "G": "minecraft:glowstone",
+  "I": "minecraft:iron_ingot"
+ },
+ "result": {
+  "id": "arcadebuild:lamp_post",
+  "count": 1
+ }
+}

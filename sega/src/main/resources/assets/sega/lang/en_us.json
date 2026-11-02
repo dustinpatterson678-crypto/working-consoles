@@ -1,0 +1,6 @@
+{
+  "block.sega.genesis": "Sega Genesis",
+  "block.sega.saturn": "Sega Saturn",
+  "item.sega.cartridge": "Genesis Cartridge",
+  "item.sega.disc_case": "Saturn Disc Case"
+}

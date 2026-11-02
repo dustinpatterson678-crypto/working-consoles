@@ -1,0 +1,105 @@
+{
+ "format_version": "1.12.0",
+ "minecraft:geometry": [
+  {
+   "description": {
+    "identifier": "geometry.snes_cartridge",
+    "texture_width": 256,
+    "texture_height": 256,
+    "visible_bounds_width": 2,
+    "visible_bounds_height": 2,
+    "visible_bounds_offset": [
+     0,
+     0,
+     0
+    ]
+   },
+   "bones": [
+    {
+     "name": "case",
+     "pivot": [
+      0,
+      0,
+      0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -4.25,
+        -3.0,
+        -0.6
+       ],
+       "size": [
+        8.5,
+        6.0,
+        1.2
+       ],
+       "uv": {
+        "north": {
+         "uv": [
+          0,
+          0
+         ],
+         "uv_size": [
+          102,
+          72
+         ]
+        },
+        "south": {
+         "uv": [
+          102,
+          0
+         ],
+         "uv_size": [
+          102,
+          72
+         ]
+        },
+        "west": {
+         "uv": [
+          204,
+          0
+         ],
+         "uv_size": [
+          14,
+          72
+         ]
+        },
+        "east": {
+         "uv": [
+          218,
+          0
+         ],
+         "uv_size": [
+          14,
+          72
+         ]
+        },
+        "up": {
+         "uv": [
+          0,
+          72
+         ],
+         "uv_size": [
+          102,
+          14
+         ]
+        },
+        "down": {
+         "uv": [
+          102,
+          72
+         ],
+         "uv_size": [
+          102,
+          14
+         ]
+        }
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

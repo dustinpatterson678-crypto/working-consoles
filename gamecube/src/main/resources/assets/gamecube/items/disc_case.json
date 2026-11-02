@@ -1,0 +1,9 @@
+{
+ "model": {
+  "type": "minecraft:special",
+  "base": "gamecube:item/disc_case",
+  "model": {
+   "type": "geckolib:geckolib"
+  }
+ }
+}

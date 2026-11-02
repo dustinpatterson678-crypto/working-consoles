@@ -1,0 +1,19 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "GGG",
+  "WCW",
+  "PPP"
+ ],
+ "key": {
+  "G": "minecraft:glass",
+  "W": "minecraft:white_wool",
+  "C": "minecraft:chest",
+  "P": "minecraft:oak_planks"
+ },
+ "result": {
+  "id": "arcadeplus:prize_booth",
+  "count": 1
+ }
+}

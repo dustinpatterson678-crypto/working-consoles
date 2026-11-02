@@ -1,0 +1,13 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "minecraft:paper",
+  "minecraft:glass_pane",
+  "minecraft:redstone"
+ ],
+ "result": {
+  "id": "sega:disc_case",
+  "count": 2
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "GMG",
+  "DRD",
+  "AEA"
+ ],
+ "key": {
+  "G": "minecraft:glass",
+  "M": "minecraft:magma_block",
+  "D": "minecraft:dispenser",
+  "R": "minecraft:redstone",
+  "A": "minecraft:oak_planks",
+  "E": "minecraft:emerald"
+ },
+ "result": {
+  "id": "arcadeplus:meteor",
+  "count": 1
+ }
+}

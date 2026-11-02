@@ -1,0 +1,28 @@
+{
+ "variants": {
+  "facing=north,lit=true": {
+   "model": "arcadebuild:block/lamp_post"
+  },
+  "facing=north,lit=false": {
+   "model": "arcadebuild:block/lamp_post"
+  },
+  "facing=east,lit=true": {
+   "model": "arcadebuild:block/lamp_post"
+  },
+  "facing=east,lit=false": {
+   "model": "arcadebuild:block/lamp_post"
+  },
+  "facing=south,lit=true": {
+   "model": "arcadebuild:block/lamp_post"
+  },
+  "facing=south,lit=false": {
+   "model": "arcadebuild:block/lamp_post"
+  },
+  "facing=west,lit=true": {
+   "model": "arcadebuild:block/lamp_post"
+  },
+  "facing=west,lit=false": {
+   "model": "arcadebuild:block/lamp_post"
+  }
+ }
+}

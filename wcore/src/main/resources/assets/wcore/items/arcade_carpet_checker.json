@@ -1,0 +1,9 @@
+{
+    "model":  {
+                  "type":  "minecraft:special",
+                  "base":  "wcore:item/arcade_carpet_checker",
+                  "model":  {
+                                "type":  "geckolib:geckolib"
+                            }
+              }
+}

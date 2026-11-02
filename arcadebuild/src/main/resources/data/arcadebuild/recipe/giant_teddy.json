@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  " W ",
+  "WSW",
+  " W "
+ ],
+ "key": {
+  "W": "minecraft:brown_wool",
+  "S": "minecraft:string"
+ },
+ "result": {
+  "id": "arcadebuild:giant_teddy",
+  "count": 1
+ }
+}

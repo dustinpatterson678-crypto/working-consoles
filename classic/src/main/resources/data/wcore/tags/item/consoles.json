@@ -1,0 +1,14 @@
+{
+ "replace": false,
+ "values": [
+  "classic:c64",
+  "classic:amiga",
+  "classic:atarist",
+  "classic:zxspectrum",
+  "classic:cpc",
+  "classic:dospc",
+  "classic:atari800",
+  "classic:sms",
+  "classic:gamegear"
+ ]
+}

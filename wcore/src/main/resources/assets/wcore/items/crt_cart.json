@@ -1,0 +1,9 @@
+{
+    "model":  {
+                  "type":  "minecraft:special",
+                  "base":  "wcore:item/crt_cart",
+                  "model":  {
+                                "type":  "geckolib:geckolib"
+                            }
+              }
+}

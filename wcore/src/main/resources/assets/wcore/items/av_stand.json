@@ -1,0 +1,9 @@
+{
+    "model":  {
+                  "type":  "minecraft:special",
+                  "base":  "wcore:item/av_stand",
+                  "model":  {
+                                "type":  "geckolib:geckolib"
+                            }
+              }
+}

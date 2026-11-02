@@ -1,0 +1,12 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "wcore:projector",
+  "minecraft:iron_chain"
+ ],
+ "result": {
+  "id": "wcore:ceiling_projector",
+  "count": 1
+ }
+}

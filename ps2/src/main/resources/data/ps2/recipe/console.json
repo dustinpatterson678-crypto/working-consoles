@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "NNN",
+  "NDN",
+  "OOO"
+ ],
+ "key": {
+  "N": "minecraft:netherite_ingot",
+  "D": "minecraft:diamond_block",
+  "O": "minecraft:obsidian"
+ },
+ "result": {
+  "id": "ps2:console",
+  "count": 1
+ }
+}

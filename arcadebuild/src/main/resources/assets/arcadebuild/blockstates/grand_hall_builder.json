@@ -1,0 +1,1 @@
+{"variants": {"facing=north": {"model": "arcadebuild:block/grand_hall_builder"}, "facing=east": {"model": "arcadebuild:block/grand_hall_builder", "y": 90}, "facing=south": {"model": "arcadebuild:block/grand_hall_builder", "y": 180}, "facing=west": {"model": "arcadebuild:block/grand_hall_builder", "y": 270}}}

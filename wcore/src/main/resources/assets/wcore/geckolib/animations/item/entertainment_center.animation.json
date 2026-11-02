@@ -1,0 +1,137 @@
+{
+    "format_version":  "1.8.0",
+    "animations":  {
+                       "idle":  {
+                                    "loop":  true,
+                                    "animation_length":  1,
+                                    "bones":  {
+
+                                              }
+                                },
+                       "closed":  {
+                                      "loop":  true,
+                                      "animation_length":  0.4,
+                                      "bones":  {
+
+                                                }
+                                  },
+                       "open":  {
+                                    "loop":  true,
+                                    "animation_length":  0.4,
+                                    "bones":  {
+                                                  "door_l":  {
+                                                                 "rotation":  {
+                                                                                  "0.0":  {
+                                                                                              "vector":  [
+                                                                                                             0,
+                                                                                                             100,
+                                                                                                             0
+                                                                                                         ]
+                                                                                          }
+                                                                              }
+                                                             },
+                                                  "door_r":  {
+                                                                 "rotation":  {
+                                                                                  "0.0":  {
+                                                                                              "vector":  [
+                                                                                                             0,
+                                                                                                             -100,
+                                                                                                             0
+                                                                                                         ]
+                                                                                          }
+                                                                              }
+                                                             }
+                                              }
+                                },
+                       "opening":  {
+                                       "animation_length":  0.55,
+                                       "bones":  {
+                                                     "door_l":  {
+                                                                    "rotation":  {
+                                                                                     "0.0":  {
+                                                                                                 "vector":  [
+                                                                                                                0,
+                                                                                                                0,
+                                                                                                                0
+                                                                                                            ],
+                                                                                                 "easing":  "easeInOutSine"
+                                                                                             },
+                                                                                     "0.55":  {
+                                                                                                  "vector":  [
+                                                                                                                 0,
+                                                                                                                 100,
+                                                                                                                 0
+                                                                                                             ],
+                                                                                                  "easing":  "easeOutCubic"
+                                                                                              }
+                                                                                 }
+                                                                },
+                                                     "door_r":  {
+                                                                    "rotation":  {
+                                                                                     "0.0":  {
+                                                                                                 "vector":  [
+                                                                                                                0,
+                                                                                                                0,
+                                                                                                                0
+                                                                                                            ],
+                                                                                                 "easing":  "easeInOutSine"
+                                                                                             },
+                                                                                     "0.55":  {
+                                                                                                  "vector":  [
+                                                                                                                 0,
+                                                                                                                 -100,
+                                                                                                                 0
+                                                                                                             ],
+                                                                                                  "easing":  "easeOutCubic"
+                                                                                              }
+                                                                                 }
+                                                                }
+                                                 }
+                                   },
+                       "closing":  {
+                                       "animation_length":  0.5,
+                                       "bones":  {
+                                                     "door_l":  {
+                                                                    "rotation":  {
+                                                                                     "0.0":  {
+                                                                                                 "vector":  [
+                                                                                                                0,
+                                                                                                                100,
+                                                                                                                0
+                                                                                                            ],
+                                                                                                 "easing":  "easeInOutSine"
+                                                                                             },
+                                                                                     "0.5":  {
+                                                                                                 "vector":  [
+                                                                                                                0,
+                                                                                                                0,
+                                                                                                                0
+                                                                                                            ],
+                                                                                                 "easing":  "easeInCubic"
+                                                                                             }
+                                                                                 }
+                                                                },
+                                                     "door_r":  {
+                                                                    "rotation":  {
+                                                                                     "0.0":  {
+                                                                                                 "vector":  [
+                                                                                                                0,
+                                                                                                                -100,
+                                                                                                                0
+                                                                                                            ],
+                                                                                                 "easing":  "easeInOutSine"
+                                                                                             },
+                                                                                     "0.5":  {
+                                                                                                 "vector":  [
+                                                                                                                0,
+                                                                                                                0,
+                                                                                                                0
+                                                                                                            ],
+                                                                                                 "easing":  "easeInCubic"
+                                                                                             }
+                                                                                 }
+                                                                }
+                                                 }
+                                   }
+                   }
+}

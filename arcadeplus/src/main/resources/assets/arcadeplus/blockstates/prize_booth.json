@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "arcadeplus:block/prize_booth"
+  },
+  "facing=east": {
+   "model": "arcadeplus:block/prize_booth",
+   "y": 90
+  },
+  "facing=south": {
+   "model": "arcadeplus:block/prize_booth",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "arcadeplus:block/prize_booth",
+   "y": 270
+  }
+ }
+}

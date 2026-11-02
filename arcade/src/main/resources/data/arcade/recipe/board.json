@@ -1,0 +1,14 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "minecraft:green_dye",
+  "minecraft:iron_ingot",
+  "minecraft:redstone",
+  "minecraft:gold_nugget"
+ ],
+ "result": {
+  "id": "arcade:board",
+  "count": 2
+ }
+}

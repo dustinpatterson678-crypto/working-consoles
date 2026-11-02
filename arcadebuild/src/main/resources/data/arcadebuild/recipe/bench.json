@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "WSW",
+  "I I"
+ ],
+ "key": {
+  "W": "minecraft:oak_slab",
+  "S": "minecraft:iron_ingot",
+  "I": "minecraft:iron_ingot"
+ },
+ "result": {
+  "id": "arcadebuild:bench",
+  "count": 1
+ }
+}

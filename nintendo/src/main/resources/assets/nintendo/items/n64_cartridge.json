@@ -1,0 +1,9 @@
+{
+ "model": {
+  "type": "minecraft:special",
+  "base": "nintendo:item/n64_cartridge",
+  "model": {
+   "type": "geckolib:geckolib"
+  }
+ }
+}

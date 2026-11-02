@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "arcadebuild",
+	"version": "${version}",
+	"name": "Dustin's Arcade 1.1: Oh Wow Reborn",
+	"description": "A realistic, fully interactive nickel arcade inspired by the Fresno Oh Wow and rebuilt with Dustin's branding. Real storefront, real rooms, real hitboxes, working cabinets, light guns, pinball and a console lounge. Version 1.1 retires the Grand Hall and its HUD effect.",
+	"authors": [
+		"Dustin"
+	],
+	"license": "MIT",
+	"environment": "*",
+	"icon": "assets/arcadebuild/icon.png",
+	"entrypoints": {
+		"main": [
+			"com.dustin.arcadebuild.ArcadeBuildMod"
+		],
+		"client": [
+			"com.dustin.arcadebuild.client.ArcadeBuildClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*",
+		"wcore": "*"
+	},
+	"suggests": {
+		"arcadeplus": "*",
+		"arcade": "*",
+		"ps2": "*",
+		"sega": "*",
+		"nintendo": "*",
+		"retro": "*",
+		"classic": "*",
+		"disc": "*",
+		"stream": "*"
+	},
+	"mixins": [
+		"arcadebuild.mixins.json"
+	]
+}

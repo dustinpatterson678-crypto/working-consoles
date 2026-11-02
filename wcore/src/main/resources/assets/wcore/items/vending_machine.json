@@ -1,0 +1,9 @@
+{
+    "model":  {
+                  "type":  "minecraft:special",
+                  "base":  "wcore:item/vending_machine",
+                  "model":  {
+                                "type":  "geckolib:geckolib"
+                            }
+              }
+}

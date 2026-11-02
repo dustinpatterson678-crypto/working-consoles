@@ -1,0 +1,19 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "III",
+  "RDR",
+  "SSS"
+ ],
+ "key": {
+  "I": "minecraft:iron_ingot",
+  "R": "minecraft:redstone",
+  "D": "minecraft:music_disc_13",
+  "S": "minecraft:smooth_stone_slab"
+ },
+ "result": {
+  "id": "disc:ps1",
+  "count": 1
+ }
+}

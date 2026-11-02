@@ -1,0 +1,18 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "category":  "building",
+    "pattern":  [
+                    "PPP",
+                    "PIP",
+                    "PGP"
+                ],
+    "key":  {
+                "P":  "#minecraft:planks",
+                "I":  "minecraft:iron_ingot",
+                "G":  "minecraft:glass"
+            },
+    "result":  {
+                   "id":  "wcore:av_stand",
+                   "count":  1
+               }
+}

@@ -1,0 +1,28 @@
+{
+ "variants": {
+  "facing=north,lit=true": {
+   "model": "arcadebuild:block/filing_cabinet"
+  },
+  "facing=north,lit=false": {
+   "model": "arcadebuild:block/filing_cabinet"
+  },
+  "facing=east,lit=true": {
+   "model": "arcadebuild:block/filing_cabinet"
+  },
+  "facing=east,lit=false": {
+   "model": "arcadebuild:block/filing_cabinet"
+  },
+  "facing=south,lit=true": {
+   "model": "arcadebuild:block/filing_cabinet"
+  },
+  "facing=south,lit=false": {
+   "model": "arcadebuild:block/filing_cabinet"
+  },
+  "facing=west,lit=true": {
+   "model": "arcadebuild:block/filing_cabinet"
+  },
+  "facing=west,lit=false": {
+   "model": "arcadebuild:block/filing_cabinet"
+  }
+ }
+}

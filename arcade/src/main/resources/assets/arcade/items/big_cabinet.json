@@ -1,0 +1,9 @@
+{
+ "model": {
+  "type": "minecraft:special",
+  "base": "arcade:item/big_cabinet",
+  "model": {
+   "type": "geckolib:geckolib"
+  }
+ }
+}

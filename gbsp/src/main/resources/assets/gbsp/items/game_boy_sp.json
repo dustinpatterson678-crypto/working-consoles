@@ -1,0 +1,9 @@
+{
+ "model": {
+  "type": "minecraft:special",
+  "base": "gbsp:item/game_boy_sp",
+  "model": {
+   "type": "geckolib:geckolib"
+  }
+ }
+}

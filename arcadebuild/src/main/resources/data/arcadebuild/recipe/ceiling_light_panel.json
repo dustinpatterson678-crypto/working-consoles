@@ -1,0 +1,12 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "building",
+ "ingredients": [
+  "arcadebuild:ceiling_tile",
+  "minecraft:glowstone"
+ ],
+ "result": {
+  "id": "arcadebuild:ceiling_light_panel",
+  "count": 1
+ }
+}

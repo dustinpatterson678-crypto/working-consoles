@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "retro",
+	"version": "${version}",
+	"name": "Retro Consoles",
+	"description": "The rest of the cartridge and 2D era for Working Consoles: two dozen classic consoles and handhelds, running natively from your own dumps.",
+	"authors": [
+		"Dustin"
+	],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.dustin.retro.RetroMod"
+		],
+		"client": [
+			"com.dustin.retro.client.RetroClientMod"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*",
+		"geckolib": ">=5.5.7",
+		"wcore": ">=0.7.0"
+	},
+	"icon": "assets/retro/icon.png"
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "gamecube",
+  "version": "${version}",
+  "name": "DUSTIN CUBE",
+  "description": "Play your own GameCube disc images on an in-world TV with a DUSTIN CUBE console. Uses the Dolphin emulator with zero-copy texture sharing for maximum performance.",
+  "authors": [
+    "Dustin"
+  ],
+  "contact": {
+    "homepage": "https://github.com/dustin/working-consoles",
+    "sources": "https://github.com/dustin/working-consoles"
+  },
+  "license": "MIT",
+  "icon": "assets/gamecube/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.dustin.gamecube.GameCubeMod"
+    ],
+    "client": [
+      "com.dustin.gamecube.client.GameCubeClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~26.3",
+    "fabric-api": "*",
+    "wcore": "*",
+    "geckolib": ">=5.5.7"
+  },
+  "custom": {
+    "loom:generated": {
+      "namespace": "gamecube"
+    }
+  }
+}

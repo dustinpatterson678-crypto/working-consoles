@@ -1,0 +1,10 @@
+Dustin's Arcade - third-party notices
+
+All machine models, textures and artwork are original to this mod.
+No real arcade, toy or game brand names or logos are used.
+
+Text on textures was drawn with the DejaVu Sans fonts
+(Bitstream Vera / DejaVu license - free to use, including in images).
+Models and textures were generated with Python (numpy, Pillow).
+
+This mod ships NO console BIOS, NO games and NO emulator cores.

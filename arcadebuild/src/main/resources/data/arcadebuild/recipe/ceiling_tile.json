@@ -1,0 +1,12 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "building",
+ "ingredients": [
+  "minecraft:white_wool",
+  "minecraft:paper"
+ ],
+ "result": {
+  "id": "arcadebuild:ceiling_tile",
+  "count": 4
+ }
+}

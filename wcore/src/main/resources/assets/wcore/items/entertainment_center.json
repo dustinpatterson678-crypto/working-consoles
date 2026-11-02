@@ -1,0 +1,9 @@
+{
+    "model":  {
+                  "type":  "minecraft:special",
+                  "base":  "wcore:item/entertainment_center",
+                  "model":  {
+                                "type":  "geckolib:geckolib"
+                            }
+              }
+}

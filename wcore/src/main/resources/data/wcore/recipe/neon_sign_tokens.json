@@ -1,0 +1,18 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "category":  "building",
+    "pattern":  [
+                    "III",
+                    "GDG",
+                    "III"
+                ],
+    "key":  {
+                "I":  "minecraft:iron_ingot",
+                "G":  "minecraft:glowstone",
+                "D":  "minecraft:cyan_dye"
+            },
+    "result":  {
+                   "id":  "wcore:neon_sign_tokens",
+                   "count":  1
+               }
+}

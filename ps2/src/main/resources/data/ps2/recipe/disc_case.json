@@ -1,0 +1,13 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "minecraft:paper",
+  "minecraft:glass_pane",
+  "minecraft:iron_nugget"
+ ],
+ "result": {
+  "id": "ps2:disc_case",
+  "count": 2
+ }
+}

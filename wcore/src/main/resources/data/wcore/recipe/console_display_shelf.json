@@ -1,0 +1,17 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "category":  "building",
+    "pattern":  [
+                    "PPP",
+                    "I I",
+                    "PPP"
+                ],
+    "key":  {
+                "P":  "#minecraft:planks",
+                "I":  "minecraft:iron_ingot"
+            },
+    "result":  {
+                   "id":  "wcore:console_display_shelf",
+                   "count":  1
+               }
+}

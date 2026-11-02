@@ -1,0 +1,27 @@
+{
+    "replace":  false,
+    "values":  [
+                   "retro:vb",
+                   "retro:pce",
+                   "retro:neogeo",
+                   "retro:ngp",
+                   "retro:wonderswan",
+                   "retro:32x",
+                   "retro:segacd",
+                   "retro:atari2600",
+                   "retro:atari5200",
+                   "retro:atari7800",
+                   "retro:lynx",
+                   "retro:jaguar",
+                   "retro:intellivision",
+                   "retro:colecovision",
+                   "retro:odyssey2",
+                   "retro:vectrex",
+                   "retro:channelf",
+                   "retro:supervision",
+                   "retro:megaduck",
+                   "retro:pokemonmini",
+                   "retro:gameandwatch",
+                   "retro:nds"
+               ]
+}

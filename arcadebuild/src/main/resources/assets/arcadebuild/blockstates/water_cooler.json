@@ -1,0 +1,28 @@
+{
+ "variants": {
+  "facing=north,lit=true": {
+   "model": "arcadebuild:block/water_cooler"
+  },
+  "facing=north,lit=false": {
+   "model": "arcadebuild:block/water_cooler"
+  },
+  "facing=east,lit=true": {
+   "model": "arcadebuild:block/water_cooler"
+  },
+  "facing=east,lit=false": {
+   "model": "arcadebuild:block/water_cooler"
+  },
+  "facing=south,lit=true": {
+   "model": "arcadebuild:block/water_cooler"
+  },
+  "facing=south,lit=false": {
+   "model": "arcadebuild:block/water_cooler"
+  },
+  "facing=west,lit=true": {
+   "model": "arcadebuild:block/water_cooler"
+  },
+  "facing=west,lit=false": {
+   "model": "arcadebuild:block/water_cooler"
+  }
+ }
+}

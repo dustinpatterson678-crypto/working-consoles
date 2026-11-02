@@ -1,0 +1,14 @@
+{
+    "type":  "minecraft:crafting_shapeless",
+    "category":  "misc",
+    "ingredients":  [
+                        "minecraft:iron_ingot",
+                        "minecraft:redstone",
+                        "minecraft:paper",
+                        "minecraft:light_gray_dye"
+                    ],
+    "result":  {
+                   "id":  "retro:odyssey2_cart",
+                   "count":  2
+               }
+}

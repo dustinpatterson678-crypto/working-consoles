@@ -1,0 +1,13 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": ["PPP", "PGP", "PPP"],
+ "key": {
+  "P": "minecraft:paper",
+  "G": "minecraft:glass_pane"
+ },
+ "result": {
+  "id": "gamecube:disc_case",
+  "count": 1
+ }
+}

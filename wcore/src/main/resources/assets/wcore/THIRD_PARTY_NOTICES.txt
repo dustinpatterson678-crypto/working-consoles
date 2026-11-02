@@ -1,0 +1,18 @@
+Working Consoles in Minecraft - third-party notices
+
+This mod ships NO console BIOS and NO games. Players must dump their own BIOS and games
+from consoles and discs/cartridges they own. Files that look downloaded are refused.
+
+Bundled:
+  mGBA (Game Boy / GBA emulation, inside gbsp_core.dll / .so)
+    Copyright (c) Jeffrey Pfau and contributors - Mozilla Public License 2.0
+    Source: https://github.com/mgba-emu/mgba
+  libretro.h (inside wcore_retro.dll / .so)
+    Copyright (c) The RetroArch team - MIT License
+
+Downloaded separately by BUILD.bat (not inside any jar):
+  LRPS2 / pcsx2_libretro (PS2 emulation)
+    Copyright (c) PCSX2 Dev Team and libretro contributors - GNU GPL v3
+    Source: https://github.com/libretro/ps2
+
+Required mods (separate downloads): Fabric API, GeckoLib. Optional: Mod Menu.

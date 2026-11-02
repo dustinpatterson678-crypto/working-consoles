@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "minecraft:book",
+  "arcadeplus:modern_board"
+ ],
+ "result": {
+  "id": "wcore:manual",
+  "count": 1,
+  "components": {
+   "minecraft:custom_data": {
+    "manual": "arcadeplus"
+   },
+   "minecraft:item_name": "Dustin's Arcade Manual"
+  }
+ }
+}

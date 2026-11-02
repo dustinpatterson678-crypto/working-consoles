@@ -1,0 +1,21 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "GHG",
+  "ISI",
+  "AEA"
+ ],
+ "key": {
+  "G": "minecraft:glass",
+  "H": "minecraft:hopper",
+  "I": "minecraft:iron_ingot",
+  "S": "minecraft:smooth_stone_slab",
+  "A": "minecraft:oak_planks",
+  "E": "minecraft:emerald"
+ },
+ "result": {
+  "id": "arcadeplus:dropzone",
+  "count": 1
+ }
+}

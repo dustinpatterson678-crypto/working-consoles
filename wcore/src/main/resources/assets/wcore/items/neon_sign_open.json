@@ -1,0 +1,9 @@
+{
+    "model":  {
+                  "type":  "minecraft:special",
+                  "base":  "wcore:item/neon_sign_open",
+                  "model":  {
+                                "type":  "geckolib:geckolib"
+                            }
+              }
+}

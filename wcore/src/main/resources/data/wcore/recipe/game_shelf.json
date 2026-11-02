@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "PPP",
+  "N N",
+  "PPP"
+ ],
+ "key": {
+  "P": "#minecraft:planks",
+  "N": "minecraft:iron_nugget"
+ },
+ "result": {
+  "id": "wcore:game_shelf",
+  "count": 1
+ }
+}

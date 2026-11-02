@@ -1,0 +1,9 @@
+{
+    "model":  {
+                  "type":  "minecraft:special",
+                  "base":  "wcore:item/media_cabinet",
+                  "model":  {
+                                "type":  "geckolib:geckolib"
+                            }
+              }
+}

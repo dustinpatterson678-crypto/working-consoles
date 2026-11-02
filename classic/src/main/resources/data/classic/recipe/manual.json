@@ -1,0 +1,19 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "minecraft:book",
+  "minecraft:redstone",
+  "minecraft:paper"
+ ],
+ "result": {
+  "id": "wcore:manual",
+  "count": 1,
+  "components": {
+   "minecraft:custom_data": {
+    "manual": "classic"
+   },
+   "minecraft:item_name": "Classics Manual"
+  }
+ }
+}

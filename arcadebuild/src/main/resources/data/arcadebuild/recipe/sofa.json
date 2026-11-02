@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "W  ",
+  "WWW",
+  "P P"
+ ],
+ "key": {
+  "W": "minecraft:red_wool",
+  "P": "minecraft:oak_planks"
+ },
+ "result": {
+  "id": "arcadebuild:sofa",
+  "count": 1
+ }
+}

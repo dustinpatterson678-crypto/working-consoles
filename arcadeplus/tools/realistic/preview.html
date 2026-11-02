@@ -1,0 +1,31 @@
+<!doctype html><html><body style="margin:0;background:#1a1420">
+<script type="importmap">{"imports":{"three":"./node_modules/three/build/three.module.js","three/addons/":"./node_modules/three/examples/jsm/"}}</script>
+<script type="module">
+import * as THREE from 'three';
+import {OBJLoader} from 'three/addons/loaders/OBJLoader.js';
+const P = new URLSearchParams(location.search);
+const model = P.get('m'), yaw = parseFloat(P.get('yaw')||'0.5'), spin=parseFloat(P.get('spin')||'0');
+const ICON = P.get('icon')=='1'; const R = new THREE.WebGLRenderer({antialias:true, alpha:true, preserveDrawingBuffer:true}); R.setSize(ICON?256:900, ICON?256:1100); document.body.appendChild(R.domElement);
+R.outputColorSpace = THREE.SRGBColorSpace;
+const S = new THREE.Scene(); if (!ICON) S.background = new THREE.Color(0x1a1420);
+const cam = new THREE.PerspectiveCamera(P.get('fov')?parseFloat(P.get('fov')):38, 900/1100, 0.05, 300);
+S.add(new THREE.HemisphereLight(0xffffff, 0x302040, 1.6));
+const dl = new THREE.DirectionalLight(0xffffff, 1.6); dl.position.set(-2, 4, -3); S.add(dl);
+const floor = new THREE.Mesh(new THREE.PlaneGeometry(6,6), new THREE.MeshStandardMaterial({color:0x221833})); floor.rotation.x=-Math.PI/2; if (!ICON) S.add(floor);
+const TL = new THREE.TextureLoader(); const cache = {};
+const glow = ['pbg_classic','pbg_galaxy','pbg_haunted','pbg_pirate','pbg_speedway','ar_marquee','hf_marquee','mb_marquee','cc_marquee','pc_marquee','ss_marquee','ce_marquee','ck_marquee','bulb','cyan','pink','bw_marquee','bd_marquee','bd_bonus','lc_marquee','ts_marquee','lamp_red','lamp_blue','lamp_green','lamp_yellow'];
+function mat(name){ if(!cache[name]){ const t = TL.load('out/textures/'+name+'.png'); t.colorSpace = THREE.SRGBColorSpace; t.wrapS=t.wrapT=THREE.RepeatWrapping;
+  cache[name] = new THREE.MeshStandardMaterial({map:t, roughness: name=='chrome'?0.15:0.35, metalness: name=='chrome'||name=='gold'?0.6:0.1, side:THREE.DoubleSide,
+    emissive: (glow.includes(name)||/^h_(sign|neon|light)/.test(name))?0xffffff:0x000000, emissiveMap: (glow.includes(name)||/^h_(sign|neon|light)/.test(name))?t:null, emissiveIntensity:0.8}); } return cache[name]; }
+new OBJLoader().load('out/models/'+model+'.obj', o => {
+  o.traverse(c => { if (c.isMesh) { const ms = Array.isArray(c.material)?c.material:[c.material]; const nm = ms.map(x=>mat(x.name)); c.material = nm.length==1?nm[0]:nm;
+     if (c.name=='wheel') { c.geometry.translate(0,-1.52,0); c.rotation.z = spin; c.position.y = 1.52; } if (c.name=='drum') { c.geometry.translate(0,-1.2,0); c.rotation.x = spin; c.position.y = 1.2; } } });
+  S.add(o);
+  if (ICON) { cam.aspect = 1; cam.updateProjectionMatrix(); const box = new THREE.Box3().setFromObject(o); const c = box.getCenter(new THREE.Vector3()); const sz = box.getSize(new THREE.Vector3());
+    const rad = Math.max(sz.x, sz.y, sz.z) * 0.78; document.body.style.background = "transparent"; R.setClearColor(0x000000, 0); const dist = rad / Math.sin(THREE.MathUtils.degToRad(19)); 
+    cam.position.set(c.x - Math.sin(yaw)*dist*0.8, c.y + dist*0.35, c.z - Math.cos(yaw)*dist*0.8); cam.lookAt(c); }
+  else if (P.get('cam')) { const c=P.get('cam').split(',').map(Number); cam.position.set(c[0],c[1],c[2]); cam.lookAt(c[3],c[4],c[5]); S.remove(floor); }
+  else { const r = 3.6; cam.position.set(Math.sin(yaw)*r*-1, 1.5, -Math.cos(yaw)*r); cam.lookAt(0, 1.15, 0); }
+  setTimeout(()=>{ R.render(S, cam); document.title='done'; }, 1500);
+});
+</script></body></html>

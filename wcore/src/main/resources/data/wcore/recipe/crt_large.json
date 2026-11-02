@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "CCC",
+  "CGC",
+  "CRC"
+ ],
+ "key": {
+  "C": "minecraft:black_concrete",
+  "G": "minecraft:glass",
+  "R": "minecraft:redstone_block"
+ },
+ "result": {
+  "id": "wcore:crt_large",
+  "count": 1
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "GLG",
+  "RCR",
+  "AEA"
+ ],
+ "key": {
+  "G": "minecraft:glass",
+  "L": "minecraft:redstone_lamp",
+  "R": "minecraft:redstone",
+  "C": "minecraft:repeater",
+  "A": "minecraft:oak_planks",
+  "E": "minecraft:emerald"
+ },
+ "result": {
+  "id": "arcadeplus:stacker",
+  "count": 1
+ }
+}

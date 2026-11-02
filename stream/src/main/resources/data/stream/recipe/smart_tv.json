@@ -1,0 +1,19 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "GGG",
+  "GRG",
+  "IQI"
+ ],
+ "key": {
+  "G": "minecraft:black_stained_glass_pane",
+  "R": "minecraft:redstone",
+  "I": "minecraft:iron_ingot",
+  "Q": "minecraft:quartz"
+ },
+ "result": {
+  "id": "stream:smart_tv",
+  "count": 1
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "III",
+  "RGR",
+  "PSP"
+ ],
+ "key": {
+  "I": "minecraft:iron_ingot",
+  "R": "minecraft:redstone",
+  "G": "minecraft:gold_ingot",
+  "P": "minecraft:purple_dye",
+  "S": "minecraft:smooth_stone_slab"
+ },
+ "result": {
+  "id": "nintendo:snes",
+  "count": 1
+ }
+}

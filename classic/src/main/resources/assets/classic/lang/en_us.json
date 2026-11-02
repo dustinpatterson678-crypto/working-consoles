@@ -1,0 +1,20 @@
+{
+  "block.classic.c64": "Commodore 64",
+  "block.classic.amiga": "Amiga 500",
+  "block.classic.atarist": "Atari ST",
+  "block.classic.zxspectrum": "ZX Spectrum",
+  "block.classic.cpc": "Amstrad CPC",
+  "block.classic.dospc": "MS-DOS PC",
+  "block.classic.atari800": "Atari 800",
+  "block.classic.sms": "Sega Master System",
+  "block.classic.gamegear": "Sega Game Gear",
+  "item.classic.c64_media": "C64 Disk",
+  "item.classic.amiga_media": "Amiga Floppy",
+  "item.classic.atarist_media": "Atari ST Floppy",
+  "item.classic.zxspectrum_media": "Spectrum Cassette",
+  "item.classic.cpc_media": "CPC Floppy",
+  "item.classic.dospc_media": "PC Floppy",
+  "item.classic.atari800_media": "Atari 800 Cartridge",
+  "item.classic.sms_media": "Master System Cartridge",
+  "item.classic.gamegear_media": "Game Gear Cartridge"
+}

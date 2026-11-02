@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.dustin.wcore.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "client.FirstPersonHandsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

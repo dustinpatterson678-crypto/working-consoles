@@ -1,0 +1,20 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "PGP",
+  "RDR",
+  "PEP"
+ ],
+ "key": {
+  "P": "minecraft:oak_planks",
+  "G": "minecraft:glass_pane",
+  "R": "minecraft:redstone",
+  "D": "minecraft:red_dye",
+  "E": "minecraft:emerald"
+ },
+ "result": {
+  "id": "arcadeplus:racing_cabinet",
+  "count": 1
+ }
+}

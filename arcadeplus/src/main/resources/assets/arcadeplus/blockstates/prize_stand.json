@@ -1,0 +1,16 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "arcadeplus:block/prize_stand"
+  },
+  "facing=south": {
+   "model": "arcadeplus:block/prize_stand"
+  },
+  "facing=east": {
+   "model": "arcadeplus:block/prize_stand"
+  },
+  "facing=west": {
+   "model": "arcadeplus:block/prize_stand"
+  }
+ }
+}

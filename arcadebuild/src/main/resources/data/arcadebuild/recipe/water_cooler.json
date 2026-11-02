@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  " G ",
+  " W ",
+  " Q "
+ ],
+ "key": {
+  "G": "minecraft:glass",
+  "W": "minecraft:water_bucket",
+  "Q": "minecraft:quartz_block"
+ },
+ "result": {
+  "id": "arcadebuild:water_cooler",
+  "count": 1
+ }
+}

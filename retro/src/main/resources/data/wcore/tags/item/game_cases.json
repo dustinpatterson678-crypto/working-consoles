@@ -1,0 +1,27 @@
+{
+    "replace":  false,
+    "values":  [
+                   "retro:vb_cart",
+                   "retro:pce_card",
+                   "retro:neogeo_cart",
+                   "retro:ngp_card",
+                   "retro:wonderswan_card",
+                   "retro:32x_cart",
+                   "retro:segacd_disc",
+                   "retro:atari2600_cart",
+                   "retro:atari5200_cart",
+                   "retro:atari7800_cart",
+                   "retro:lynx_card",
+                   "retro:jaguar_cart",
+                   "retro:intellivision_cart",
+                   "retro:colecovision_cart",
+                   "retro:odyssey2_cart",
+                   "retro:vectrex_cart",
+                   "retro:channelf_cart",
+                   "retro:supervision_cart",
+                   "retro:megaduck_cart",
+                   "retro:pokemonmini_card",
+                   "retro:gameandwatch_card",
+                   "retro:nds_card"
+               ]
+}

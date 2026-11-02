@@ -1,0 +1,16 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "PPP",
+  "S S"
+ ],
+ "key": {
+  "P": "minecraft:dark_oak_planks",
+  "S": "minecraft:stick"
+ },
+ "result": {
+  "id": "arcadebuild:coffee_table",
+  "count": 1
+ }
+}

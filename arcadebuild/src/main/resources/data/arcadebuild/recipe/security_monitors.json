@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "GGG",
+  "GRG",
+  "III"
+ ],
+ "key": {
+  "G": "minecraft:glass_pane",
+  "R": "minecraft:redstone",
+  "I": "minecraft:iron_ingot"
+ },
+ "result": {
+  "id": "arcadebuild:security_monitors",
+  "count": 1
+ }
+}

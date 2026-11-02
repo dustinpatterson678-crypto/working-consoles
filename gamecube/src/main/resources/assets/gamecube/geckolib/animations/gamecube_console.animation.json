@@ -1,0 +1,51 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+    "animation.gamecube_console.idle": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "rotation": [0, 0, 0]
+        }
+      }
+    },
+    "animation.gamecube_console.insert": {
+      "loop": false,
+      "bones": {
+        "disc_lid": {
+          "rotation": {
+            "0.0": [0, 0, 0],
+            "0.2": [-90, 0, 0],
+            "0.4": [0, 0, 0]
+          }
+        }
+      }
+    },
+    "animation.gamecube_console.eject": {
+      "loop": false,
+      "bones": {
+        "disc_lid": {
+          "rotation": {
+            "0.0": [0, 0, 0],
+            "0.2": [-90, 0, 0],
+            "0.4": [0, 0, 0]
+          }
+        }
+      }
+    },
+    "animation.gamecube_console.shake": {
+      "loop": false,
+      "bones": {
+        "root": {
+          "rotation": {
+            "0.0": [0, 0, 0],
+            "0.05": [5, 5, 0],
+            "0.1": [-5, -5, 0],
+            "0.15": [5, 5, 0],
+            "0.2": [0, 0, 0]
+          }
+        }
+      }
+    }
+  }
+}

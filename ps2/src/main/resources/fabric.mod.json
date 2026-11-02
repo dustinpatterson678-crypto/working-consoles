@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "ps2",
+	"version": "${version}",
+	"name": "Slim Disc Console",
+	"description": "A working disc console for the Working Consoles pack. Plug it into a TV and a live wall outlet, insert your own disc images, and play on the TV. Needs your own BIOS dump.",
+	"authors": [
+		"Dustin"
+	],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.dustin.ps2.Ps2Mod"
+		],
+		"client": [
+			"com.dustin.ps2.client.Ps2Client"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*",
+		"geckolib": ">=5.5.7",
+		"wcore": ">=0.7.0"
+	},
+	"icon": "assets/ps2/icon.png"
+}

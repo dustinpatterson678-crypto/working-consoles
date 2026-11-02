@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "wcore",
+	"version": "${version}",
+	"name": "Working Consoles Core",
+	"description": "Shared parts for the Working Consoles in Minecraft pack: wireless controller, controller input and two-handed holding.",
+	"authors": [
+		"Dustin"
+	],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.dustin.wcore.WorkingConsolesCore"
+		],
+		"client": [
+			"com.dustin.wcore.client.WorkingConsolesCoreClient"
+		],
+		"modmenu": [
+			"com.dustin.wcore.client.ModMenuHook"
+		]
+	},
+	"mixins": [
+		"wcore.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*",
+		"geckolib": ">=5.5.7"
+	},
+	"icon": "assets/wcore/icon.png"
+}

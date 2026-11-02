@@ -1,0 +1,7 @@
+{
+ "replace": false,
+ "values": [
+  "sega:cartridge",
+  "sega:disc_case"
+ ]
+}

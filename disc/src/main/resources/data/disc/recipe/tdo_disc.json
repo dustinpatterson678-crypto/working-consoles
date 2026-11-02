@@ -1,0 +1,14 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "minecraft:glass_pane",
+  "minecraft:redstone",
+  "minecraft:paper",
+  "minecraft:black_dye"
+ ],
+ "result": {
+  "id": "disc:tdo_disc",
+  "count": 2
+ }
+}

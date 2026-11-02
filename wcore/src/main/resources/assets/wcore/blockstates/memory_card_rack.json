@@ -1,0 +1,7 @@
+{
+    "variants":  {
+                     "":  {
+                              "model":  "wcore:block/memory_card_rack"
+                          }
+                 }
+}

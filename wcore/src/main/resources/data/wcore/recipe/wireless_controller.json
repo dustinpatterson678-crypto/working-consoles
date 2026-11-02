@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  " R ",
+  "IDI",
+  "I I"
+ ],
+ "key": {
+  "R": "minecraft:redstone",
+  "I": "minecraft:iron_ingot",
+  "D": "minecraft:diamond"
+ },
+ "result": {
+  "id": "wcore:wireless_controller",
+  "count": 1
+ }
+}

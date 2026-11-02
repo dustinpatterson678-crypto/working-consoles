@@ -1,0 +1,7 @@
+{
+ "model": {
+  "type": "minecraft:special",
+  "base": "retro:item/channelf",
+  "model": { "type": "geckolib:geckolib" }
+ }
+}

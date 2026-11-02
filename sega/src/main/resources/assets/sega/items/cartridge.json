@@ -1,0 +1,9 @@
+{
+ "model": {
+  "type": "minecraft:special",
+  "base": "sega:item/cartridge",
+  "model": {
+   "type": "geckolib:geckolib"
+  }
+ }
+}

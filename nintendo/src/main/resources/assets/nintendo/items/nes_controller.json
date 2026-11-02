@@ -1,0 +1,9 @@
+{
+ "model": {
+  "type": "minecraft:special",
+  "base": "nintendo:item/nes_controller",
+  "model": {
+   "type": "geckolib:geckolib"
+  }
+ }
+}

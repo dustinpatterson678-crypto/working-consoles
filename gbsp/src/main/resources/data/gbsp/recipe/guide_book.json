@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": ["minecraft:book", "minecraft:iron_ingot"],
+  "result": { "id": "gbsp:guide_book", "count": 1 }
+}

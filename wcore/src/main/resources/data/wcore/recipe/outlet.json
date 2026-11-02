@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  " Q ",
+  "IRI"
+ ],
+ "key": {
+  "Q": "minecraft:quartz",
+  "I": "minecraft:iron_nugget",
+  "R": "minecraft:redstone"
+ },
+ "result": {
+  "id": "wcore:outlet",
+  "count": 2
+ }
+}

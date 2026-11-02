@@ -1,0 +1,20 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "GNG",
+  "GCG",
+  "AEA"
+ ],
+ "key": {
+  "G": "minecraft:glass",
+  "N": "minecraft:note_block",
+  "C": "minecraft:chest",
+  "A": "minecraft:oak_planks",
+  "E": "minecraft:emerald"
+ },
+ "result": {
+  "id": "arcadeplus:beatblaster",
+  "count": 1
+ }
+}

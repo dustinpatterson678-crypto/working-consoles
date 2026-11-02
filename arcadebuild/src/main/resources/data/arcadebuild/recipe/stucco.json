@@ -1,0 +1,13 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "building",
+ "ingredients": [
+  "minecraft:sand",
+  "minecraft:white_dye",
+  "minecraft:clay_ball"
+ ],
+ "result": {
+  "id": "arcadebuild:stucco",
+  "count": 8
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "minecraft:string",
+  "minecraft:string",
+  "minecraft:redstone",
+  "minecraft:iron_nugget"
+ ],
+ "result": {
+  "id": "gbsp:link_cable",
+  "count": 1
+ }
+}

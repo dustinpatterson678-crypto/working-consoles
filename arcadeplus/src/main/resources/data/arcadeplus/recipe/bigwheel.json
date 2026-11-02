@@ -1,0 +1,21 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "DLD",
+  "RCR",
+  "AEA"
+ ],
+ "key": {
+  "D": "minecraft:red_dye",
+  "L": "minecraft:redstone_lamp",
+  "R": "minecraft:redstone",
+  "C": "minecraft:clock",
+  "A": "minecraft:oak_planks",
+  "E": "minecraft:emerald"
+ },
+ "result": {
+  "id": "arcadeplus:bigwheel",
+  "count": 1
+ }
+}

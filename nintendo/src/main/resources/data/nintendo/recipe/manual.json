@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "minecraft:book",
+  "nintendo:nes_cartridge"
+ ],
+ "result": {
+  "id": "wcore:manual",
+  "count": 1,
+  "components": {
+   "minecraft:custom_data": {
+    "manual": "nintendo"
+   },
+   "minecraft:item_name": "Nintendo Manual"
+  }
+ }
+}

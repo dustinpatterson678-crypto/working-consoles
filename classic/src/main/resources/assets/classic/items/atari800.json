@@ -1,0 +1,9 @@
+{
+ "model": {
+  "type": "minecraft:special",
+  "base": "classic:item/atari800",
+  "model": {
+   "type": "geckolib:geckolib"
+  }
+ }
+}

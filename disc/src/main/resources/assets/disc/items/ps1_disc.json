@@ -1,0 +1,9 @@
+{
+ "model": {
+  "type": "minecraft:special",
+  "base": "disc:item/ps1_disc",
+  "model": {
+   "type": "geckolib:geckolib"
+  }
+ }
+}

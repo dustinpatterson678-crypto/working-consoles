@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "classic",
+	"version": "${version}",
+	"name": "Classic Computers",
+	"description": "Classic 8-bit and 16-bit home computers plus an 8-bit card console and a color pocket console, running natively from your own dumps.",
+	"authors": [
+		"Dustin"
+	],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.dustin.classic.ClassicMod"
+		],
+		"client": [
+			"com.dustin.classic.client.ClassicClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*",
+		"geckolib": ">=5.5.7",
+		"wcore": ">=0.7.0"
+	},
+	"icon": "assets/classic/icon.png"
+}

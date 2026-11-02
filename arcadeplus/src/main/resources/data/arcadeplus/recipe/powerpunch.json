@@ -1,0 +1,20 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "GPG",
+  "GCG",
+  "AEA"
+ ],
+ "key": {
+  "G": "minecraft:glass",
+  "P": "minecraft:leather",
+  "C": "minecraft:chest",
+  "A": "minecraft:oak_planks",
+  "E": "minecraft:emerald"
+ },
+ "result": {
+  "id": "arcadeplus:powerpunch",
+  "count": 1
+ }
+}

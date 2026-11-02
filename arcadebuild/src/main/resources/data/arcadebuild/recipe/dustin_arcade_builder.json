@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "category": "misc", "pattern": ["DBD", "ETE", "DBD"], "key": {"D": "minecraft:diamond_block", "E": "minecraft:emerald_block", "B": "minecraft:bricks", "T": "arcadeplus:nickel"}, "result": {"id": "arcadebuild:dustin_arcade_builder", "count": 1}}

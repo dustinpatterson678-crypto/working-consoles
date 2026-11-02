@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "CCC",
+  "RDR",
+  "CCC"
+ ],
+ "key": {
+  "C": "minecraft:black_concrete",
+  "R": "minecraft:redstone",
+  "D": "minecraft:music_disc_cat"
+ },
+ "result": {
+  "id": "disc:tdo",
+  "count": 1
+ }
+}

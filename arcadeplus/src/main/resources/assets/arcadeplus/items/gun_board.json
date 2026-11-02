@@ -1,0 +1,9 @@
+{
+ "model": {
+  "type": "minecraft:special",
+  "base": "arcadeplus:item/modern_board",
+  "model": {
+   "type": "geckolib:geckolib"
+  }
+ }
+}

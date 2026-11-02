@@ -1,0 +1,8 @@
+{
+ "replace": false,
+ "values": [
+  "nintendo:nes_cartridge",
+  "nintendo:snes_cartridge",
+  "nintendo:n64_cartridge"
+ ]
+}

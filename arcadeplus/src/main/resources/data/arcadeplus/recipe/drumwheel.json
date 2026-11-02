@@ -1,0 +1,21 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "GLG",
+  "RBR",
+  "AEA"
+ ],
+ "key": {
+  "G": "minecraft:glass_pane",
+  "L": "minecraft:lime_dye",
+  "R": "minecraft:redstone",
+  "B": "minecraft:barrel",
+  "A": "minecraft:oak_planks",
+  "E": "minecraft:emerald"
+ },
+ "result": {
+  "id": "arcadeplus:drumwheel",
+  "count": 1
+ }
+}

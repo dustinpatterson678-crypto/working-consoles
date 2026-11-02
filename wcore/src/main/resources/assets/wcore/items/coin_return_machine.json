@@ -1,0 +1,9 @@
+{
+    "model":  {
+                  "type":  "minecraft:special",
+                  "base":  "wcore:item/coin_return_machine",
+                  "model":  {
+                                "type":  "geckolib:geckolib"
+                            }
+              }
+}

@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "disc",
+	"version": "${version}",
+	"name": "Disc Consoles",
+	"description": "Three working disc consoles for the Working Consoles pack, running natively from your own BIOS and disc dumps.",
+	"authors": [
+		"Dustin"
+	],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.dustin.disc.DiscMod"
+		],
+		"client": [
+			"com.dustin.disc.client.DiscClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*",
+		"geckolib": ">=5.5.7",
+		"wcore": ">=0.7.0"
+	},
+	"icon": "assets/disc/icon.png"
+}

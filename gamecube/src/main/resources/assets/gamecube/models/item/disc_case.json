@@ -1,0 +1,8 @@
+{
+  "model": {
+    "type": "minecraft:geo_item",
+    "model": "gamecube:geo/disc_case.geo.json",
+    "texture": "gamecube:textures/item/disc_case.png",
+    "animation": "gamecube:animations/disc_case.animation.json"
+  }
+}

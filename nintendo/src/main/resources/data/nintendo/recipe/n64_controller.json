@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  " R ",
+  "IPI",
+  "I I"
+ ],
+ "key": {
+  "R": "minecraft:redstone",
+  "I": "minecraft:iron_ingot",
+  "P": "minecraft:light_gray_dye"
+ },
+ "result": {
+  "id": "nintendo:n64_controller",
+  "count": 1
+ }
+}

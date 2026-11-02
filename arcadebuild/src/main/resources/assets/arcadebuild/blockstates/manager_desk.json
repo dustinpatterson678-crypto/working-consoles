@@ -1,0 +1,28 @@
+{
+ "variants": {
+  "facing=north,lit=true": {
+   "model": "arcadebuild:block/manager_desk"
+  },
+  "facing=north,lit=false": {
+   "model": "arcadebuild:block/manager_desk"
+  },
+  "facing=east,lit=true": {
+   "model": "arcadebuild:block/manager_desk"
+  },
+  "facing=east,lit=false": {
+   "model": "arcadebuild:block/manager_desk"
+  },
+  "facing=south,lit=true": {
+   "model": "arcadebuild:block/manager_desk"
+  },
+  "facing=south,lit=false": {
+   "model": "arcadebuild:block/manager_desk"
+  },
+  "facing=west,lit=true": {
+   "model": "arcadebuild:block/manager_desk"
+  },
+  "facing=west,lit=false": {
+   "model": "arcadebuild:block/manager_desk"
+  }
+ }
+}

@@ -1,0 +1,9 @@
+{
+ "model": {
+  "type": "minecraft:special",
+  "base": "gbsp:item/game_case",
+  "model": {
+   "type": "geckolib:geckolib"
+  }
+ }
+}

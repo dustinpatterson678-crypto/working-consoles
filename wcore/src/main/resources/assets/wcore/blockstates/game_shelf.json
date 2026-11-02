@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "wcore:block/game_shelf"
+  },
+  "facing=east": {
+   "model": "wcore:block/game_shelf",
+   "y": 90
+  },
+  "facing=south": {
+   "model": "wcore:block/game_shelf",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "wcore:block/game_shelf",
+   "y": 270
+  }
+ }
+}

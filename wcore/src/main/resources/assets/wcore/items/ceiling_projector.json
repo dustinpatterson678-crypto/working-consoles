@@ -1,0 +1,9 @@
+{
+ "model": {
+  "type": "minecraft:special",
+  "base": "wcore:item/ceiling_projector",
+  "model": {
+   "type": "geckolib:geckolib"
+  }
+ }
+}

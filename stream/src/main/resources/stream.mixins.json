@@ -1,0 +1,12 @@
+{
+  "required": false,
+  "package": "com.dustin.stream.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "McefArgsMixin",
+    "McefCreateMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

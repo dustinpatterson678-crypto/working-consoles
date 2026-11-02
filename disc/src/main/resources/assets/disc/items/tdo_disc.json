@@ -1,0 +1,9 @@
+{
+ "model": {
+  "type": "minecraft:special",
+  "base": "disc:item/tdo_disc",
+  "model": {
+   "type": "geckolib:geckolib"
+  }
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "WWW",
+  "W W",
+  "WWW"
+ ],
+ "key": {
+  "W": "minecraft:red_wool"
+ },
+ "result": {
+  "id": "wcore:bean_bag",
+  "count": 1
+ }
+}

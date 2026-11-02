@@ -1,0 +1,7 @@
+{
+ "model": {
+  "type": "minecraft:special",
+  "base": "retro:item/vectrex",
+  "model": { "type": "geckolib:geckolib" }
+ }
+}

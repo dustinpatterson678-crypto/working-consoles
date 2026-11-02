@@ -1,0 +1,9 @@
+{
+ "model": {
+  "type": "minecraft:special",
+  "base": "arcade:item/board",
+  "model": {
+   "type": "geckolib:geckolib"
+  }
+ }
+}

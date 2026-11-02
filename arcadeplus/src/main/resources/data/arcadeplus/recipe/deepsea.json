@@ -1,0 +1,20 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "GFG",
+  "GCG",
+  "AEA"
+ ],
+ "key": {
+  "G": "minecraft:glass",
+  "F": "minecraft:fishing_rod",
+  "C": "minecraft:chest",
+  "A": "minecraft:oak_planks",
+  "E": "minecraft:emerald"
+ },
+ "result": {
+  "id": "arcadeplus:deepsea",
+  "count": 1
+ }
+}

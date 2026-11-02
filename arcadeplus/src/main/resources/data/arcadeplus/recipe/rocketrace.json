@@ -1,0 +1,21 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "FBF",
+  "RPR",
+  "AEA"
+ ],
+ "key": {
+  "F": "minecraft:firework_rocket",
+  "B": "minecraft:stone_button",
+  "R": "minecraft:redstone",
+  "P": "minecraft:piston",
+  "A": "minecraft:oak_planks",
+  "E": "minecraft:emerald"
+ },
+ "result": {
+  "id": "arcadeplus:rocketrace",
+  "count": 1
+ }
+}

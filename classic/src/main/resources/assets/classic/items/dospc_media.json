@@ -1,0 +1,9 @@
+{
+ "model": {
+  "type": "minecraft:special",
+  "base": "classic:item/disk525",
+  "model": {
+   "type": "geckolib:geckolib"
+  }
+ }
+}

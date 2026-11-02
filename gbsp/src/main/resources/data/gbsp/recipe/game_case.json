@@ -1,0 +1,13 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "minecraft:iron_ingot",
+  "minecraft:redstone",
+  "minecraft:paper"
+ ],
+ "result": {
+  "id": "gbsp:game_case",
+  "count": 2
+ }
+}

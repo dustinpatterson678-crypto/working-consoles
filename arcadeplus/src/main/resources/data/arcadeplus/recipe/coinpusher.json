@@ -1,0 +1,20 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "ABA",
+  "RCR",
+  "AEA"
+ ],
+ "key": {
+  "A": "minecraft:piston",
+  "B": "minecraft:gold_nugget",
+  "C": "minecraft:glass_pane",
+  "R": "minecraft:redstone",
+  "E": "minecraft:emerald"
+ },
+ "result": {
+  "id": "arcadeplus:coinpusher",
+  "count": 1
+ }
+}

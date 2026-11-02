@@ -1,0 +1,7 @@
+{
+ "model": {
+  "type": "minecraft:special",
+  "base": "retro:item/card",
+  "model": { "type": "geckolib:geckolib" }
+ }
+}

@@ -1,0 +1,7 @@
+{
+    "variants":  {
+                     "":  {
+                              "model":  "wcore:block/prize_counter"
+                          }
+                 }
+}

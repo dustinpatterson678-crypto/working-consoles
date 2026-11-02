@@ -1,0 +1,9 @@
+{
+ "model": {
+  "type": "minecraft:special",
+  "base": "nintendo:item/snes",
+  "model": {
+   "type": "geckolib:geckolib"
+  }
+ }
+}

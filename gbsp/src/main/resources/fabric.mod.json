@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "gbsp",
+	"version": "${version}",
+	"name": "Clamshell Handheld",
+	"description": "A working clamshell handheld that plays your own handheld game dumps on its 3D screen. Stays a model until you add your own BIOS and games.",
+	"authors": [
+		"Dustin"
+	],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.dustin.gbsp.GameBoySP"
+		],
+		"client": [
+			"com.dustin.gbsp.client.GameBoySPClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*",
+		"geckolib": ">=5.5.7",
+		"wcore": "*"
+	},
+	"suggests": {
+		"iris": "*"
+	},
+	"icon": "assets/gbsp/icon.png"
+}

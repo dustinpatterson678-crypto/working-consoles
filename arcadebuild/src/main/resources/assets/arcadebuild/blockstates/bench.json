@@ -1,0 +1,28 @@
+{
+ "variants": {
+  "facing=north,lit=true": {
+   "model": "arcadebuild:block/bench"
+  },
+  "facing=north,lit=false": {
+   "model": "arcadebuild:block/bench"
+  },
+  "facing=east,lit=true": {
+   "model": "arcadebuild:block/bench"
+  },
+  "facing=east,lit=false": {
+   "model": "arcadebuild:block/bench"
+  },
+  "facing=south,lit=true": {
+   "model": "arcadebuild:block/bench"
+  },
+  "facing=south,lit=false": {
+   "model": "arcadebuild:block/bench"
+  },
+  "facing=west,lit=true": {
+   "model": "arcadebuild:block/bench"
+  },
+  "facing=west,lit=false": {
+   "model": "arcadebuild:block/bench"
+  }
+ }
+}

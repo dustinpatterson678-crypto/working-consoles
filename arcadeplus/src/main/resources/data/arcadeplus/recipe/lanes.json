@@ -1,0 +1,20 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "SSS",
+  "BWB",
+  "AEA"
+ ],
+ "key": {
+  "S": "minecraft:smooth_stone_slab",
+  "B": "minecraft:bone_block",
+  "W": "minecraft:white_wool",
+  "A": "minecraft:oak_planks",
+  "E": "minecraft:emerald"
+ },
+ "result": {
+  "id": "arcadeplus:lanes",
+  "count": 1
+ }
+}

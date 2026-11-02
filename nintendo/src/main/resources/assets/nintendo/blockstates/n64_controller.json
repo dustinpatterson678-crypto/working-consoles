@@ -1,0 +1,16 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "nintendo:block/n64_controller"
+  },
+  "facing=south": {
+   "model": "nintendo:block/n64_controller"
+  },
+  "facing=east": {
+   "model": "nintendo:block/n64_controller"
+  },
+  "facing=west": {
+   "model": "nintendo:block/n64_controller"
+  }
+ }
+}

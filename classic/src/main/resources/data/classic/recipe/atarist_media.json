@@ -1,0 +1,13 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "minecraft:paper",
+  "minecraft:redstone",
+  "minecraft:light_gray_dye"
+ ],
+ "result": {
+  "id": "classic:atarist_media",
+  "count": 2
+ }
+}

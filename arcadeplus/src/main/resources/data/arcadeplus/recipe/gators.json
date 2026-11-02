@@ -1,0 +1,21 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "SLS",
+  "RHR",
+  "AEA"
+ ],
+ "key": {
+  "S": "minecraft:slime_ball",
+  "L": "minecraft:lily_pad",
+  "R": "minecraft:redstone",
+  "H": "minecraft:piston",
+  "A": "minecraft:oak_planks",
+  "E": "minecraft:emerald"
+ },
+ "result": {
+  "id": "arcadeplus:gators",
+  "count": 1
+ }
+}

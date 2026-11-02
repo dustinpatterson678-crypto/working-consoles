@@ -1,0 +1,21 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "RWR",
+  "SPS",
+  "AEA"
+ ],
+ "key": {
+  "R": "minecraft:red_wool",
+  "W": "minecraft:white_wool",
+  "S": "minecraft:snowball",
+  "P": "minecraft:piston",
+  "A": "minecraft:oak_planks",
+  "E": "minecraft:emerald"
+ },
+ "result": {
+  "id": "arcadeplus:clowns",
+  "count": 1
+ }
+}

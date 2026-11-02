@@ -1,0 +1,8 @@
+{
+ "block.gamecube.console": "DUSTIN CUBE",
+ "item.gamecube.disc_case": "Disc Case",
+ "item.gamecube.disc_case.named": "Disc Case: %s",
+ "itemGroup.gamecube.main": "DUSTIN CUBE",
+ "item.gamecube.gamecube_controller": "GameCube Controller",
+ "block.gamecube.gamecube_controller": "GameCube Controller"
+}

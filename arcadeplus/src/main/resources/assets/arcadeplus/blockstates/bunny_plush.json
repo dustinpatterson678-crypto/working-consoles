@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "arcadeplus:block/bunny_plush"
+  },
+  "facing=east": {
+   "model": "arcadeplus:block/bunny_plush",
+   "y": 90
+  },
+  "facing=south": {
+   "model": "arcadeplus:block/bunny_plush",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "arcadeplus:block/bunny_plush",
+   "y": 270
+  }
+ }
+}

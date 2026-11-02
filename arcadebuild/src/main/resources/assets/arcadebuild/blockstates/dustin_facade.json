@@ -1,0 +1,1 @@
+{"variants": {"facing=north": {"model": "arcadebuild:block/brick_facade"}, "facing=east": {"model": "arcadebuild:block/brick_facade"}, "facing=south": {"model": "arcadebuild:block/brick_facade"}, "facing=west": {"model": "arcadebuild:block/brick_facade"}}}

@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  " W ",
+  " I ",
+  "III"
+ ],
+ "key": {
+  "W": "minecraft:black_wool",
+  "I": "minecraft:iron_ingot"
+ },
+ "result": {
+  "id": "arcadebuild:office_chair",
+  "count": 1
+ }
+}

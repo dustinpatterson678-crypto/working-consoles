@@ -1,0 +1,7 @@
+{
+    "variants":  {
+                     "":  {
+                              "model":  "wcore:block/neon_sign_play"
+                          }
+                 }
+}

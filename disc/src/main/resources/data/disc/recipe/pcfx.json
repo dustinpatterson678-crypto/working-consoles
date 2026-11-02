@@ -1,0 +1,19 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "QIQ",
+  "RDR",
+  "QIQ"
+ ],
+ "key": {
+  "Q": "minecraft:quartz_block",
+  "I": "minecraft:iron_ingot",
+  "R": "minecraft:redstone",
+  "D": "minecraft:music_disc_blocks"
+ },
+ "result": {
+  "id": "disc:pcfx",
+  "count": 1
+ }
+}

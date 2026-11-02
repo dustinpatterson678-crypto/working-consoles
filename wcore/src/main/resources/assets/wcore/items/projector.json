@@ -1,0 +1,9 @@
+{
+ "model": {
+  "type": "minecraft:special",
+  "base": "wcore:item/projector",
+  "model": {
+   "type": "geckolib:geckolib"
+  }
+ }
+}

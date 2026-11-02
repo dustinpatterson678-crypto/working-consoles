@@ -1,0 +1,21 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "GBG",
+  "IRI",
+  "AEA"
+ ],
+ "key": {
+  "G": "minecraft:glowstone",
+  "B": "minecraft:bell",
+  "I": "minecraft:iron_ingot",
+  "R": "minecraft:redstone",
+  "A": "minecraft:oak_planks",
+  "E": "minecraft:emerald"
+ },
+ "result": {
+  "id": "arcadeplus:striker",
+  "count": 1
+ }
+}

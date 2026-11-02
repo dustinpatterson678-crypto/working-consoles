@@ -1,0 +1,12 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "building",
+ "ingredients": [
+  "minecraft:black_concrete",
+  "minecraft:purple_dye"
+ ],
+ "result": {
+  "id": "arcadebuild:arcade_wall",
+  "count": 4
+ }
+}

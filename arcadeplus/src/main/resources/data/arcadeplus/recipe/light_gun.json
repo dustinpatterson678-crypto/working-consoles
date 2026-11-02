@@ -1,0 +1,20 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "IIO",
+  "SRB",
+  "S  "
+ ],
+ "key": {
+  "I": "minecraft:iron_ingot",
+  "O": "minecraft:orange_dye",
+  "S": "minecraft:stick",
+  "R": "minecraft:redstone",
+  "B": "minecraft:blue_dye"
+ },
+ "result": {
+  "id": "arcadeplus:light_gun",
+  "count": 1
+ }
+}

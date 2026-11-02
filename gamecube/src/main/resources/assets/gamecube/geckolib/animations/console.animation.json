@@ -1,0 +1,55 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "idle": {
+      "loop": true,
+      "animation_length": 1.0,
+      "bones": {
+        "root": {
+          "rotation": [0, 0, 0]
+        }
+      }
+    },
+    "insert": {
+      "loop": false,
+      "animation_length": 0.4,
+      "bones": {
+        "disc_lid": {
+          "rotation": {
+            "0.0": [0, 0, 0],
+            "0.2": [-90, 0, 0],
+            "0.4": [0, 0, 0]
+          }
+        }
+      }
+    },
+    "eject": {
+      "loop": false,
+      "animation_length": 0.4,
+      "bones": {
+        "disc_lid": {
+          "rotation": {
+            "0.0": [0, 0, 0],
+            "0.2": [-90, 0, 0],
+            "0.4": [0, 0, 0]
+          }
+        }
+      }
+    },
+    "shake": {
+      "loop": false,
+      "animation_length": 0.2,
+      "bones": {
+        "root": {
+          "rotation": {
+            "0.0": [0, 0, 0],
+            "0.05": [5, 5, 0],
+            "0.1": [-5, -5, 0],
+            "0.15": [5, 5, 0],
+            "0.2": [0, 0, 0]
+          }
+        }
+      }
+    }
+  }
+}

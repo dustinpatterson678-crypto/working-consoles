@@ -1,0 +1,10 @@
+repositories {
+	maven { url 'https://maven.dimaskama.net/releases' }
+}
+
+dependencies {
+	compileOnly project(':wcore')
+	// MCEF Modern: real Chromium inside Minecraft (LGPL-2.1). Bundled in the jar so nothing extra to install.
+	include(modImplementation("net.dimaskama:mcef-modern:0.3.3+mc26.3.jcef146.0.10"))
+	compileOnly "me.friwi:jcef-api:jcef-d3de827+cef-146.0.10+g8219561+chromium-146.0.7680.179"
+}

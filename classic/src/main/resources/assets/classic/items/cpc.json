@@ -1,0 +1,9 @@
+{
+ "model": {
+  "type": "minecraft:special",
+  "base": "classic:item/cpc",
+  "model": {
+   "type": "geckolib:geckolib"
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "IQI",
+  "IGI",
+  "IRI"
+ ],
+ "key": {
+  "I": "minecraft:iron_ingot",
+  "Q": "minecraft:quartz",
+  "G": "minecraft:glowstone",
+  "R": "minecraft:redstone"
+ },
+ "result": {
+  "id": "wcore:projector",
+  "count": 1
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "building",
+ "ingredients": [
+  "minecraft:glowstone_dust",
+  "minecraft:magenta_dye",
+  "minecraft:glass_pane"
+ ],
+ "result": {
+  "id": "arcadebuild:neon_trim",
+  "count": 4
+ }
+}

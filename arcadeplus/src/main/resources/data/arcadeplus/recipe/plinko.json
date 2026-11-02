@@ -1,0 +1,21 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "CGC",
+  "BPB",
+  "AEA"
+ ],
+ "key": {
+  "C": "minecraft:iron_ingot",
+  "G": "minecraft:glass",
+  "B": "minecraft:blue_wool",
+  "P": "minecraft:iron_bars",
+  "A": "minecraft:oak_planks",
+  "E": "minecraft:emerald"
+ },
+ "result": {
+  "id": "arcadeplus:plinko",
+  "count": 1
+ }
+}

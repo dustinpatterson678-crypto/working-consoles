@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NNN",
+    "NDN",
+    "NNN"
+  ],
+  "key": {
+    "N": "minecraft:netherite_ingot",
+    "D": "minecraft:diamond"
+  },
+  "result": {
+    "id": "gbsp:game_boy_sp",
+    "count": 1
+  }
+}

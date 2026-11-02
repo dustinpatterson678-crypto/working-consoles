@@ -1,0 +1,28 @@
+{
+ "variants": {
+  "facing=north,lit=true": {
+   "model": "arcadebuild:block/office_chair"
+  },
+  "facing=north,lit=false": {
+   "model": "arcadebuild:block/office_chair"
+  },
+  "facing=east,lit=true": {
+   "model": "arcadebuild:block/office_chair"
+  },
+  "facing=east,lit=false": {
+   "model": "arcadebuild:block/office_chair"
+  },
+  "facing=south,lit=true": {
+   "model": "arcadebuild:block/office_chair"
+  },
+  "facing=south,lit=false": {
+   "model": "arcadebuild:block/office_chair"
+  },
+  "facing=west,lit=true": {
+   "model": "arcadebuild:block/office_chair"
+  },
+  "facing=west,lit=false": {
+   "model": "arcadebuild:block/office_chair"
+  }
+ }
+}

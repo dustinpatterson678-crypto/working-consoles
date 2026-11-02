@@ -1,0 +1,9 @@
+{
+    "model":  {
+                  "type":  "minecraft:special",
+                  "base":  "wcore:item/console_rack",
+                  "model":  {
+                                "type":  "geckolib:geckolib"
+                            }
+              }
+}

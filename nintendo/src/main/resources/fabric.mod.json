@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "nintendo",
+	"version": "${version}",
+	"name": "Cartridge Consoles",
+	"description": "Working 8-bit, 16-bit and 64-bit home consoles for the Working Consoles pack. Plug them into a TV and a live wall outlet, write your own cartridge dumps onto blank cartridges and play.",
+	"authors": [
+		"Dustin"
+	],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.dustin.nintendo.NintendoMod"
+		],
+		"client": [
+			"com.dustin.nintendo.client.NintendoClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*",
+		"geckolib": ">=5.5.7",
+		"wcore": ">=0.7.0"
+	},
+	"icon": "assets/nintendo/icon.png"
+}

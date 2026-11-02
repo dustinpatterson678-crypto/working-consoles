@@ -1,0 +1,113 @@
+plugins {
+	id 'fabric-loom' version '1.19.1' apply false
+}
+
+def release = (findProperty('release') ?: 'false').toString().toBoolean()
+// Dev builds carry a unique stamp (date+time) so every build is distinguishable — newest filename wins.
+def devStamp = new java.text.SimpleDateFormat('yyyyMMdd-HHmm').format(new Date())
+def modVersion = providers.gradleProperty('mod_version').get() + (release ? '' : "+DEV.${devStamp}")
+def mcVersion = providers.gradleProperty('minecraft_version').get()
+def loaderVersion = providers.gradleProperty('fabric_loader_version').get()
+def apiVersion = providers.gradleProperty('fabric_api_version').get()
+def javaVersion = providers.gradleProperty('java_version').get() as int
+
+allprojects {
+	group = 'com.dustin.workingconsoles'
+	version = modVersion
+
+	repositories {
+		mavenCentral()
+		maven { url 'https://maven.fabricmc.net/' }
+		maven { url 'https://repo.spongepowered.org/maven' }
+		maven { url 'https://maven.terraformersmc.com/releases/' }
+	}
+}
+
+def archivesNames = [
+	'wcore' : 'working-consoles-core',
+	'gbsp'  : 'gameboy-in-minecraft',
+	'ps2'   : 'ps2-in-minecraft',
+	'sega'  : 'sega-in-minecraft',
+	'arcade': 'arcade-in-minecraft',
+	'nintendo': 'nintendo-in-minecraft',
+	'retro' : 'retro-in-minecraft',
+	'disc'  : 'disc-consoles-in-minecraft',
+	'classic': 'classics-in-minecraft',
+	'stream': 'stream-in-minecraft',
+	'gamecube': 'gamecube-in-minecraft',
+	'arcadeplus': 'arcade-deluxe-in-minecraft',
+	'arcadebuild': 'arcade-building-in-minecraft'
+]
+
+subprojects {
+	apply plugin: 'fabric-loom'
+	apply plugin: 'java'
+
+	loom {
+		noIntermediateMappings()
+	}
+
+	base {
+		archivesName = archivesNames[project.name] ?: project.name
+	}
+
+	java {
+		toolchain {
+			languageVersion = JavaLanguageVersion.of(javaVersion)
+		}
+	}
+
+	tasks.withType(JavaCompile).configureEach {
+		it.options.release = javaVersion
+		it.options.encoding = 'UTF-8'
+	}
+
+	dependencies {
+		minecraft "com.mojang:minecraft:${mcVersion}"
+		mappings files(rootProject.file("gradle/mappings/identity-mappings.jar"))
+		modImplementation "net.fabricmc:fabric-loader:${loaderVersion}"
+		modImplementation "net.fabricmc.fabric-api:fabric-api:${apiVersion}"
+		modImplementation files(rootProject.file("libs/geckolib-fabric-26.3-5.5.7.jar"))
+		compileOnly "com.terraformersmc:modmenu:21.0.0"
+	}
+
+	processResources {
+		inputs.property 'version', project.version
+		filesMatching('fabric.mod.json') {
+			expand 'version': project.version
+		}
+	}
+
+	if (project.name == 'wcore') {
+		tasks.named('processResources') {
+			doLast {
+				def stamp = new java.text.SimpleDateFormat('yyyy.MM.dd').format(new Date())
+				new File(destinationDir, 'wcore-build.properties').text =
+					"release=${release}\nstamp=${release ? 'REL' : 'DEV'}-${stamp}\n"
+			}
+		}
+		// release jars never carry the developer bypass (DevProfile is also kept out of git)
+		if (release) {
+			tasks.named('jar') {
+				exclude 'com/dustin/wcore/emu/DevProfile*'
+			}
+		}
+	}
+}
+
+// Builds the 3 jars and installs them (see release-bundles.gradle).
+apply from: 'release-bundles.gradle'
+
+tasks.register('deployToInstance') {
+	group = 'working consoles'
+	description = 'Same as installJars: puts the 3 jars in the game mods folder.'
+	dependsOn 'installJars'
+}
+
+// `gradlew.bat build` builds all mods, bundles the 3 jars and installs them into the game.
+tasks.register('build') {
+	group = 'build'
+	description = 'Builds all mods and auto-installs the 3 jars into the CurseForge instance.'
+	dependsOn subprojects.collect { p -> ":${p.name}:build" }
+	dependsOn 'deployToInstance'
+}
