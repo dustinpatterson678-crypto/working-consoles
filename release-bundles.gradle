@@ -82,6 +82,33 @@ tasks.register('releaseJars') {
    }
 }
 
+// CurseForge installs one file per download, so this wraps the 3 release jars in one jar (Fabric loads nested jars):
+//   gradlew curseforgeJar  ->  <release folder>/curseforge/working-consoles-and-arcades-<v>.jar
+tasks.register('curseforgeJar', Jar) {
+   group = 'working consoles'
+   description = 'One jar with all 3 mods inside, for uploading to CurseForge.'
+   dependsOn 'releaseJars'
+   def gen = new File(rootProject.layout.buildDirectory.get().asFile, 'bundles/curseforge')
+   archiveFileName = "working-consoles-and-arcades-${relVersion}.jar"
+   destinationDirectory = new File(relDir, 'curseforge')
+   from(gen)
+   def icon = rootProject.file('docs/icon.png')
+   if (icon.exists()) from(icon) { rename { 'icon.png' } }
+   from(relDir) { include '*.jar'; into 'META-INF/jars' }
+   doFirst {
+      gen.mkdirs()
+      def nested = (relDir.listFiles({ f -> f.name.endsWith('.jar') } as FileFilter) ?: []).collect { [file: "META-INF/jars/${it.name}".toString()] }
+      def meta = [
+         schemaVersion: 1, id: 'workingconsolesarcades', version: relVersion, name: 'Working Consoles & Arcades',
+         description: 'Working consoles, TVs and a full redemption arcade. Contains Working Consoles, Working Consoles Core and Dustin\'s Arcade.',
+         authors: ['Dustin'], license: 'MIT', environment: '*', jars: nested,
+         depends: [fabricloader: '>=0.19.5', minecraft: '~26.3', 'fabric-api': '*', geckolib: '>=5.5.7']
+      ]
+      if (icon.exists()) meta.icon = 'icon.png'
+      new File(gen, 'fabric.mod.json').text = JsonOutput.prettyPrint(JsonOutput.toJson(meta))
+   }
+}
+
 // Every file name our mods have ever been installed under, old single-mod jars included.
 def ourPrefixes = ['working-consoles-', 'dustins-arcade-', 'gameboy-in-minecraft-', 'ps2-in-minecraft-', 'sega-in-minecraft-', 'arcade-in-minecraft-',
    'nintendo-in-minecraft-', 'retro-in-minecraft-', 'stream-in-minecraft-', 'disc-consoles-in-minecraft-', 'classics-in-minecraft-',
