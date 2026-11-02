@@ -17,6 +17,13 @@ import net.minecraft.network.chat.Component;
 
 public class WorkingConsolesCoreClient implements ClientModInitializer {
    public void onInitializeClient() {
+      for (var plugin : net.fabricmc.loader.api.FabricLoader.getInstance().getEntrypointContainers("workingconsoles_client", com.dustin.wcore.api.WorkingConsolesClientPlugin.class)) {
+         try {
+            plugin.getEntrypoint().registerClient();
+         } catch (Throwable t) {
+            com.dustin.wcore.WorkingConsolesCore.LOGGER.error("[API] addon {} failed on the client", plugin.getProvider().getMetadata().getId(), t);
+         }
+      }
       ClientPlayConnectionEvents.JOIN
          .register(
             (Join)(handler, sender, client) -> {

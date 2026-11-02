@@ -98,6 +98,8 @@ public final class Prizes {
    private static final String PRICE_VERSION = "# prices v4";
 
    private static List<Prize> server = List.of();
+   /** Prizes added by addon mods through ArcadeApi.addPrize (the price-list file wins for the same item). */
+   public static final List<Prize> ADDON = new ArrayList<>();
    /** What the client was last sent (the screen and the prize wall show this). */
    public static List<Prize> client = List.of();
 
@@ -133,6 +135,9 @@ public final class Prizes {
             } catch (RuntimeException ignored) {
                // a typo on one line never breaks the booth
             }
+         }
+         for (Prize p : ADDON) {
+            if (l.stream().noneMatch(x -> x.id().equals(p.id())) && !p.stack().isEmpty()) l.add(p);
          }
          server = l;
       } catch (java.io.IOException e) {

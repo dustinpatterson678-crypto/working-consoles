@@ -495,6 +495,15 @@ public class WorkingConsolesCore implements ModInitializer {
    }
 
    public void onInitialize() {
+      // addon mods: everything listed under the "workingconsoles" entrypoint (see docs/API.md)
+      for (var plugin : net.fabricmc.loader.api.FabricLoader.getInstance().getEntrypointContainers("workingconsoles", com.dustin.wcore.api.WorkingConsolesPlugin.class)) {
+         try {
+            plugin.getEntrypoint().register();
+            LOGGER.info("[API] loaded addon {}", plugin.getProvider().getMetadata().getId());
+         } catch (Throwable t) {
+            LOGGER.error("[API] addon {} failed to register", plugin.getProvider().getMetadata().getId(), t);
+         }
+      }
       Registry.register(
          BuiltInRegistries.CREATIVE_MODE_TAB,
          TAB_KEY,

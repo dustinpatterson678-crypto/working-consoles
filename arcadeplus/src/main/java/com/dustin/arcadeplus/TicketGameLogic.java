@@ -1246,7 +1246,7 @@ public final class TicketGameLogic {
       return whole + (level.getRandom().nextDouble() < t - whole ? 1 : 0);
    }
 
-   private static void pay(Level level, BlockPos pos, int points) {
+   public static void pay(Level level, BlockPos pos, int points) {
       if (points <= 0) return;
       int tickets = toTickets(level, points);
       tellNear(level, pos, points + " point" + (points == 1 ? "" : "s") + "  ->  " + tickets + " ticket" + (tickets == 1 ? "" : "s"), tickets > 0 ? ChatFormatting.GOLD : ChatFormatting.GRAY);
@@ -1254,6 +1254,7 @@ public final class TicketGameLogic {
       if (level instanceof net.minecraft.server.level.ServerLevel sl) {
          String game = level.getBlockState(pos).getBlock() instanceof TicketGameBlock b ? b.game.title : "An arcade game";
          int jackpot = MegaJackpot.onWin(sl, pos, game, tickets);
+         com.dustin.arcadeplus.api.ArcadeApi.TICKETS_WON.invoker().onWin(sl, pos, game, tickets + jackpot, jackpot > 0);
          if (jackpot > 0) {
             tickets += jackpot;
          } else if (tickets >= 25) {
